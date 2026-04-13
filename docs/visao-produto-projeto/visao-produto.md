@@ -24,9 +24,9 @@ A missão central do projeto é transformar as primeiras semanas profissionais d
 
 O diagrama a seguir representa o cenário atual da evasão, intitulado **"O Cenário da Evasão: A Jornada Desconectada do Aprendiz"**. Ele ilustra os principais atores, fluxos de informação e pontos de ruptura que motivam a proposta do projeto.
 
-![Rich Picture - Cenário da Evasão](../assets/images/rich-picture.png)
+![Rich Picture - Cenário da Evasão](../assets/images/RichPicture.png)
 
-*Figura 1: O Cenário da Evasão — A Jornada Desconectada do Aprendiz.*
+*Imagem 1: O Cenário da Evasão — A Jornada Desconectada do Aprendiz. Fonte: Imagem gerada através de dados da pesquisa "Projeto Transporte em Cena" com o auxílio da ferramenta NotebookLM*
 
 ### 1.4 Identificação da Oportunidade ou Problema
 
@@ -38,7 +38,7 @@ A necessidade de mitigar a alta evasão de jovens aprendizes no setor de transpo
 
 **Lacunas de indicadores** — Inexistência de dados rastreáveis sobre o ROI da formação de aprendizes e desmotivação gerada pela falta de feedbacks estruturados ao longo da jornada.
 
-![Diagrama de Ishikawa](../assets/images/ishikawa-diagram.png)
+![Diagrama de Ishikawa](../assets/images/placeholder)
 
 *Figura 2: Diagrama de Ishikawa — Causas da Evasão de Jovens Aprendizes.*
 
@@ -137,3 +137,9 @@ A viabilidade técnica da proposta é considerada **alta**, uma vez que a equipe
 **Para o cliente (gestores, instrutores e organizações parceiras):** Redução do tempo em tarefas administrativas manuais, acesso a dados consolidados de desempenho e retenção, e relatórios de ROI que demonstram objetivamente o retorno do investimento em formação.
 
 **Para os usuários finais (jovens aprendizes):** Ambiente de aprendizagem mais acolhedor e transparente, reconhecimento contínuo do esforço, redução da sensação de abandono e aumento das chances de efetivação ao final do programa.
+
+## Histórico de versões
+
+| Versão | Data | Descrição | 
+|:--------:|:-------:|:-------------------:|
+| 1.0 | 13/04 | Versão inicial do documento|

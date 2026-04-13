@@ -16,3 +16,4 @@ Elaborar os artefatos visuais do cenário atual e realizar a análise competitiv
 | Análise competitiva | Equipe | Concluída |
 | Definição de objetivos do produto | Equipe | Concluída |
 | Segmentação de clientes | Equipe | Concluída |
+

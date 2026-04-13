@@ -7,19 +7,17 @@
 | Unidade | Período (previsto) | Foco Principal | Entregável |
 |---------|-------------------|----------------|-----------|
 | **Unidade 1** | Mar–Abr 2026 | Visão do Produto e Projeto | Documento de Visão (seções 1–6, 10, 11) |
-| **Unidade 2** | Mai–Jun 2026 | Requisitos e Backlog | Seções 7, 8 e 9 do documento de Visão |
-| **Unidade 3** | Jul–Ago 2026 | Desenvolvimento do MVP | MVP funcional com C1, C3 e C5 |
-| **Unidade 4** | Set–Out 2026 | Validação e Entrega Final | MVP validado com representante |
+| **Unidade 2** | Abr–Mai 2026 | Requisitos e Backlog, Início de desenvolvimento MVP | Seções 7, 8 e 9 do documento de Visão |
+| **Unidade 3** | Mai–Jun 2026 | Desenvolvimento do MVP | MVP funcional com C1, C3 e C5 |
+| **Unidade 4** | Jun–Jul 2026 | Validação e Entrega Final | MVP validado com representante |
 
 ### Detalhamento — Unidade 1 (Fase de Inception)
 
 | Iteração | Período | Atividades | Resultado Esperado |
 |----------|---------|-----------|-------------------|
-| **Iteração 1** | Semana 1–2 | Entrevistas com cliente, levantamento de contexto | Identificação do problema e stakeholders |
-| **Iteração 2** | Semana 3–4 | Rich Picture, Ishikawa, análise competitiva | Artefatos visuais do cenário atual |
-| **Iteração 3** | Semana 5–6 | Definição de objetivos, características e tecnologias | Seções 2 e 3 do documento de Visão |
-| **Iteração 4** | Semana 7–8 | Estratégias de ER, cronograma, composição da equipe | Seções 4, 5 e 6 do documento de Visão |
-| **Entrega U1** | Semana 8 | Revisão final e publicação no GitPages | Documento de Visão v1.0 publicado |
+| **Iteração 1** | Semana 1–2 | Ambientalização da equipe, levantamento de horários e conhecimentos | Identificação de forças e desafios, possibilidades de clientes |
+| **Iteração 2** | Semana 2–4 | Elaboração do documento de visão da Unidade 1 | Artefatos visuais do cenário atual |
+| **Entrega U1** | Semana 4 | Revisão final e publicação no GitPages | Documento de Visão v1.0 publicado |
 
 ---
 
@@ -63,7 +61,7 @@ Abaixo se encontra a divisão inicial de funções principais associadas aos mem
 
 ---
 
-## 11. Referências Bibliográficas
+## Referências Bibliográficas
 
 1. MARSICANO, George. **Requisitos de Software**. Livro base da disciplina, 2026.1, v1.1-draft. Universidade de Brasília.
 
@@ -74,3 +72,10 @@ Abaixo se encontra a divisão inicial de funções principais associadas aos mem
 4. AMBLER, Scott W.; LINES, Mark. **Disciplined Agile Delivery: A Practitioner's Guide to Agile Software Delivery in the Enterprise**. IBM Press, 2012.
 
 5. WIEGERS, Karl; BEATTY, Joy. **Software Requirements**. 3. ed. Microsoft Press, 2013.
+
+
+## Histórico de versões
+
+| Versão | Data | Descrição | 
+|:--------:|:-------:|:-------------------:|
+| 1.0 | 13/04 | Versão inicial do documento|

@@ -19,3 +19,9 @@ A entrega da Unidade 1 contempla o **Documento de Visão do Produto e Projeto** 
 | 10 | Lições Aprendidas (U1) | Concluída |
 | 11 | Referências Bibliográficas | Concluída |
 | 12 | Gravação da entrega da Unidade 1 | A ser realizada |
+
+## Histórico de versões
+
+| Versão | Data | Descrição | 
+|:--------:|:-------:|:-------------------:|
+| 1.0 | 13/04 | Versão inicial do documento|
