@@ -2,7 +2,7 @@
 
 **Período:** Semanas 3–4 da Unidade 1
 
-**Status:** Em andamento
+**Status:** Concluída
 
 ## Objetivo
 
@@ -12,12 +12,7 @@ Elaborar os artefatos visuais do cenário atual e realizar a análise competitiv
 
 | Atividade | Responsável | Status |
 |-----------|-------------|--------|
-| Diagrama de Ishikawa | Equipe | 🔄 Em andamento |
-| Análise competitiva | Equipe | 🔄 Em andamento |
-| Definição de objetivos do produto | Equipe | 🔄 Em andamento |
-| Segmentação de clientes | Equipe | 🔄 Em andamento |
-
-## Retrospectiva
-
-!!! info "A ser preenchido ao final da iteração"
-    Registre aqui o que funcionou bem, o que pode melhorar e as ações para a próxima iteração.
+| Diagrama de Ishikawa | Equipe | Concluída |
+| Análise competitiva | Equipe | Concluída |
+| Definição de objetivos do produto | Equipe | Concluída |
+| Segmentação de clientes | Equipe | Concluída |
