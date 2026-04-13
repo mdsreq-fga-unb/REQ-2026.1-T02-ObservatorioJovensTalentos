@@ -1,0 +1,198 @@
+/* ============================================================
+   ERRO 404 — Observatório de Talentos
+   Estilos customizados inspirados no tema do Paraizo
+   ============================================================ */
+
+/* ── Hero da Home ─────────────────────────────────────────── */
+.hero-section {
+  background: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #0d1117 100%);
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(ellipse at center, rgba(63, 81, 181, 0.15) 0%, transparent 70%);
+  animation: pulse 6s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 0.5; }
+  50% { transform: scale(1.1); opacity: 1; }
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  color: #8b949e;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-btn {
+  display: inline-block;
+  background: transparent;
+  border: 2px solid #3f51b5;
+  color: #3f51b5;
+  padding: 0.75rem 2rem;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-btn:hover {
+  background: #3f51b5;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* ── Cards de Features ────────────────────────────────────── */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  padding: 3rem 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.feature-card {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.feature-card:hover {
+  border-color: #3f51b5;
+  transform: translateY(-4px);
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.feature-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #f0f6fc;
+  margin-bottom: 0.5rem;
+}
+
+.feature-desc {
+  font-size: 0.9rem;
+  color: #8b949e;
+  line-height: 1.6;
+}
+
+/* ── Seção do Time ────────────────────────────────────────── */
+.team-section {
+  padding: 3rem 2rem;
+  text-align: center;
+  background: #0d1117;
+}
+
+.team-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f0f6fc;
+  margin-bottom: 0.5rem;
+}
+
+.team-subtitle {
+  color: #8b949e;
+  margin-bottom: 3rem;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.team-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #3f51b5, #7986cb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 700;
+  border: 3px solid #30363d;
+  transition: border-color 0.3s ease;
+}
+
+.team-avatar:hover {
+  border-color: #3f51b5;
+}
+
+.team-name {
+  font-weight: 600;
+  color: #f0f6fc;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.team-role {
+  font-size: 0.8rem;
+  color: #8b949e;
+}
+
+/* ── Ajustes gerais do Material ───────────────────────────── */
+[data-md-color-scheme="slate"] .md-header {
+  background-color: #0d1117;
+}
+
+[data-md-color-scheme="slate"] .md-nav {
+  background-color: #0d1117;
+}
+
+/* ── Responsividade ───────────────────────────────────────── */
+@media (max-width: 768px) {
+  .hero-title { font-size: 2rem; }
+  .features-grid { grid-template-columns: 1fr; }
+  .team-grid { grid-template-columns: repeat(2, 1fr); }
+}

@@ -1,0 +1,115 @@
+site_name: Observatório de Talentos
+site_description: Visão do Produto e Projeto — Equipe Erro 404 | Requisitos de Software 2026.1
+site_author: Equipe Erro 404
+site_url: https://mdsreq-fga-unb.github.io/REQ-2026.1-T02-ObservatorioJovensTalentos/
+
+repo_url: https://mdsreq-fga-unb.github.io/REQ-2026.1-T02-ObservatorioJovensTalentos/
+repo_name: mdsreq-fga-unb/REQ-2026.1-T02-ObservatorioJovensTalentos
+edit_uri: edit/main/docs/
+
+# ── Tema ──────────────────────────────────────────────────────
+theme:
+  name: material
+  custom_dir: docs/overrides
+  language: pt-BR
+
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Modo claro
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Modo escuro
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+    - content.code.annotate
+    - toc.follow
+
+# ── CSS extra ─────────────────────────────────────────────────
+extra_css:
+  - assets/stylesheets/extra.css
+
+# ── Plugins ───────────────────────────────────────────────────
+plugins:
+  - search:
+      lang: pt
+
+# ── Extensões Markdown ────────────────────────────────────────
+markdown_extensions:
+  - pymdownx.highlight:
+      use_pygments: true
+      anchor_linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+      title: Nesta página
+  - attr_list
+  - md_in_html
+  - def_list
+
+# ── Navegação ─────────────────────────────────────────────────
+nav:
+  - Home: index.md
+
+  - Visão Produto e Projeto:
+    - Visão do Produto: visao-produto-projeto/visao-produto.md
+    - Visão do Projeto: visao-produto-projeto/visao-projeto.md
+    - Processo de Desenvolvimento: visao-produto-projeto/processo-desenvolvimento.md
+
+  #- Backlog do Produto:
+    #- Requisitos Funcionais: backlog-produto/requisitos-funcionais.md
+    #- Requisitos Não Funcionais: backlog-produto/requisitos-nao-funcionais.md
+    #- Histórias de Usuário: backlog-produto/historias-usuario.md
+    #- DoR e DoD: backlog-produto/dor-dod.md
+    #- Priorização: backlog-produto/priorizacao.md
+
+  - Iterações:
+    - Iteração 1: iteracoes/iteracao-1.md
+    - Iteração 2: iteracoes/iteracao-2.md
+
+  - Entregas:
+    - Unidade 1: entregas/unidade-1.md
+    #- Unidade 2: entregas/unidade-2.md
+
+  - Lições Aprendidas:
+    - Unidade 1: licoes-aprendidas/unidade-1.md
+
+# ── Rodapé ────────────────────────────────────────────────────
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mdsreq-fga-unb/REQ-2026.1-T02-ObservatorioJovensTalentos
+      name: Repositório no GitHub
+
+copyright: "Equipe Erro 404 &mdash; Observatório de Talentos &mdash; Requisitos de Software 2026.1"
