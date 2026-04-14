@@ -79,3 +79,9 @@ A escolha pelo **DAD baseado em Kanban** fundamenta-se em três argumentos princ
 | **Construction** | Verificação e Validação | Inspeção + demo ao cliente | Requisitos confirmados |
 | **Construction** | Organização e Atualização | GitHub Projects (Kanban) | Backlog atualizado |
 | **Transition** | Verificação e Validação | Testes com usuários reais | MVP validado |
+
+## Histórico de versões
+
+| Versão | Data | Descrição | 
+|:--------:|:-------:|:-------------------:|
+| 1.0 | 13/04 | Versão inicial do documento|
