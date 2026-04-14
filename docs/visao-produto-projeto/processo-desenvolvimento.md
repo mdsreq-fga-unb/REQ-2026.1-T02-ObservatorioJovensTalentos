@@ -28,6 +28,12 @@ A abordagem híbrida foi escolhida por combinar a disciplina de planejamento de 
 
 A escolha pelo **DAD baseado em Kanban** fundamenta-se em três argumentos principais: o tamanho e perfil da equipe (menor sobrecarga de cerimônias), a natureza do problema (ciclos curtos de feedback para validar gamificação) e a compatibilidade com o DAD (framework escalável e adaptável que mantém disciplina de processo sem abrir mão da agilidade).
 
+### 3.4 Quadro Kanban
+
+Abaixo se apresenta o template de Kanban que está sendo utilizado pela equipe como definido no processo de software.
+
+![Quadro Kanban](../assets/images/Kanban_U1.png)
+
 ---
 
 ## 4. Engenharia de Requisitos

@@ -38,7 +38,7 @@ A necessidade de mitigar a alta evasão de jovens aprendizes no setor de transpo
 
 **Lacunas de indicadores** — Inexistência de dados rastreáveis sobre o ROI da formação de aprendizes e desmotivação gerada pela falta de feedbacks estruturados ao longo da jornada.
 
-![Diagrama de Ishikawa](../assets/images/placeholder)
+![Diagrama de Ishikawa](../assets/images/Ishikawa.jpg)
 
 *Figura 2: Diagrama de Ishikawa — Causas da Evasão de Jovens Aprendizes.*
 
