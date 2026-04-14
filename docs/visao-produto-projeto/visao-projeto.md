@@ -14,7 +14,7 @@
 ### Detalhamento — Unidade 1 (Fase de Inception)
 
 | Iteração | Período | Atividades | Resultado Esperado |
-|----------|---------|-----------|-------------------|
+|----------|----------------|-----------|-------------------|
 | **Iteração 1** | 26/03 - 04/04 | Ambientalização da equipe, levantamento de horários e conhecimentos | Identificação de forças e desafios, possibilidades de clientes |
 | **Iteração 2** | 05/04 - 13/04 | Elaboração do documento de visão da Unidade 1 | Artefatos visuais do cenário atual |
 | **Entrega U1** | 13/04 | Revisão final e publicação no GitPages | Documento de Visão v1.0 publicado |
