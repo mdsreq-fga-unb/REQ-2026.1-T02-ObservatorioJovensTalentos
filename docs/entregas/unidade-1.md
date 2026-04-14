@@ -24,7 +24,7 @@ A entrega da Unidade 1 contempla o **Documento de Visão do Produto e Projeto** 
 
 O vídeo de apresentação da equipe está disponível em: <https://youtu.be/knU_9ZQWgGY>
 
-<iframe width="1863" height="787" src="https://www.youtube.com/embed/knU_9ZQWgGY" title="Unidade 1 - Requisitos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="800" height="600" src="https://www.youtube.com/embed/knU_9ZQWgGY" title="Unidade 1 - Requisitos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Histórico de versões
 
