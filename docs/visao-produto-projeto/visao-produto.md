@@ -1,8 +1,8 @@
 # Visão do Produto
 
-## 1. Cenário Atual do Cliente e do Negócio
+## Cenário Atual do Cliente e do Negócio
 
-### 1.1 Identificação do Cliente/Parceiro
+### Identificação do Cliente/Parceiro
 
 | Campo | Informação |
 |-------|-----------|
@@ -12,7 +12,7 @@
 | **Forma de contato** | Reuniões periódicas e canal de mensagem instantânea |
 | **Vínculo com o projeto** | Cliente real e parte interessada principal |
 
-### 1.2 Introdução ao Negócio e Contexto
+### Introdução ao Negócio e Contexto
 
 O **Observatório de Talentos do Transporte** é um ecossistema integrado de gestão da jornada do aprendiz, idealizado em 2026 por estudantes do SEST SENAT B093, em Luzânia. O projeto é voltado para empresas do setor de transporte e jovens em formação profissional, com o objetivo de oferecer uma **plataforma tecnológica com modelo de negócio sustentável** capaz de mitigar a evasão escolar e fomentar o engajamento por meio de reconhecimento.
 
@@ -20,7 +20,7 @@ A solução opera conectando o ambiente educacional presencial com os sistemas d
 
 A missão central do projeto é transformar as primeiras semanas profissionais dos jovens aprendizes, promovendo um acolhimento humanizado capaz de erradicar a invisibilidade que esses jovens frequentemente enfrentam, aumentando suas chances de efetivação na carreira e reduzindo a taxa de evasão atual de 30%, com meta de atingir um ROI de 94% para as organizações parceiras.
 
-### 1.3 Rich Picture
+### Rich Picture
 
 O diagrama a seguir representa o cenário atual da evasão, intitulado **"O Cenário da Evasão: A Jornada Desconectada do Aprendiz"**. Ele ilustra os principais atores, fluxos de informação e pontos de ruptura que motivam a proposta do projeto.
 
@@ -28,7 +28,7 @@ O diagrama a seguir representa o cenário atual da evasão, intitulado **"O Cen�
 
 *Imagem 1: O Cenário da Evasão — A Jornada Desconectada do Aprendiz. Fonte: Imagem gerada através de dados da pesquisa "Projeto Transporte em Cena" com o auxílio da ferramenta NotebookLM*
 
-### 1.4 Identificação da Oportunidade ou Problema
+### Identificação da Oportunidade ou Problema
 
 A necessidade de mitigar a alta evasão de jovens aprendizes no setor de transporte constitui um problema complexo, motivado por empecilhos de natureza organizacional e tecnológica. Três categorias principais de causas foram identificadas:
 
@@ -42,7 +42,7 @@ A necessidade de mitigar a alta evasão de jovens aprendizes no setor de transpo
 
 *Figura 2: Diagrama de Ishikawa — Causas da Evasão de Jovens Aprendizes.*
 
-### 1.5 Desafios do Projeto
+### Desafios do Projeto
 
 | Desafio | Impacto Atual |
 |---------|--------------|
@@ -51,7 +51,7 @@ A necessidade de mitigar a alta evasão de jovens aprendizes no setor de transpo
 | **Baixo engajamento** | Sensação de invisibilidade e ausência de canal de suporte |
 | **Falta de dados rastreáveis** | 0% de dados sobre efetivação pós-curso |
 
-### 1.6 Mapa de Stakeholders
+### Mapa de Stakeholders
 
 | Stakeholder | Relação com a Solução | Interesses e Expectativas | Nível de Influência | Participação |
 |---|---|---|---|---|
@@ -60,7 +60,7 @@ A necessidade de mitigar a alta evasão de jovens aprendizes no setor de transpo
 | **Gestores institucionais** | Parceiros estratégicos | Dados de efetivação, fortalecimento | Alto | Decisões estratégicas |
 | **Organizações parceiras** | Beneficiários de resultados | Redução de custos, formação de qualidade | Baixo | Relatórios de desempenho |
 
-### 1.7 Segmentação de Clientes
+### Segmentação de Clientes
 
 === "Segmento 1 — Cliente"
 
@@ -80,13 +80,13 @@ A necessidade de mitigar a alta evasão de jovens aprendizes no setor de transpo
 
 ---
 
-## 2. Solução Proposta
+## Solução Proposta
 
-### 2.1 Objetivo Geral do Produto
+### Objetivo Geral do Produto
 
 O produto proposto tem como objetivo geral **mitigar as causas da evasão de jovens aprendizes** no setor de transporte, aumentando a retenção e o engajamento por meio de um sistema de pontuação e reconhecimento.
 
-### 2.2 Objetivos Específicos
+### Objetivos Específicos
 
 | ID | Objetivo Específico |
 |----|---------------------|
@@ -97,7 +97,7 @@ O produto proposto tem como objetivo geral **mitigar as causas da evasão de jov
 | **OE5** | Otimizar o tempo de trabalho dos instrutores, reduzindo tarefas manuais repetitivas |
 | **OE6** | Viabilizar a tomada de decisão estratégica baseada em dados |
 
-### 2.3 Características do Produto
+### Características do Produto
 
 | OE Principal | ID | Característica | Descrição | Valor de Negócio |
 |:---:|:---:|---|---|---|
@@ -108,7 +108,7 @@ O produto proposto tem como objetivo geral **mitigar as causas da evasão de jov
 | OE5 | C5 | **Automatização de Frequência** | Registro automatizado de presença integrado ao sistema | Economia de ~5h/mês por instrutor |
 | OE2 | C6 | **Gerador de Relatórios** | Relatórios automáticos de desempenho, retenção e ROI | Embasamento para decisões estratégicas |
 
-### 2.4 Tecnologias Utilizadas
+### Tecnologias Utilizadas
 
 | Camada | Tecnologia | Justificativa |
 |--------|-----------|---------------|
@@ -118,7 +118,7 @@ O produto proposto tem como objetivo geral **mitigar as causas da evasão de jov
 | **Testes** | pytest | Framework de testes para Python |
 | **Deploy** | Docker | Containerização para portabilidade |
 
-### 2.5 Análise Competitiva
+### Análise Competitiva
 
 | Solução | Gamificação | Alerta Preditivo | Foco em Aprendizes |
 |---------|:-----------:|:----------------:|:------------------|
@@ -128,11 +128,11 @@ O produto proposto tem como objetivo geral **mitigar as causas da evasão de jov
 | Taqe | ❌ | ❌ | ✅ |
 | **Observatório de Talentos** | ✅ | ✅ | ✅ |
 
-### 2.6 Viabilidade da Proposta
+### Viabilidade da Proposta
 
 A viabilidade técnica da proposta é considerada **alta**, uma vez que a equipe possui experiência prévia com as tecnologias selecionadas. O escopo do MVP será deliberadamente delimitado para ser entregável dentro do prazo do semestre letivo, priorizando as características de maior impacto (C1, C3 e C5).
 
-### 2.7 Benefícios Esperados
+### Benefícios Esperados
 
 **Para o cliente (gestores, instrutores e organizações parceiras):** Redução do tempo em tarefas administrativas manuais, acesso a dados consolidados de desempenho e retenção, e relatórios de ROI que demonstram objetivamente o retorno do investimento em formação.
 

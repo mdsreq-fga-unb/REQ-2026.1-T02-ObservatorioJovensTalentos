@@ -1,8 +1,8 @@
 # Processo de Desenvolvimento de Software
 
-## 3. Estratégias de Engenharia de Software
+##  Estratégias de Engenharia de Software
 
-### 3.1 Estratégia Priorizada
+### Estratégia Priorizada
 
 | Campo | Decisão |
 |-------|---------|
@@ -12,7 +12,7 @@
 
 A abordagem híbrida foi escolhida por combinar a disciplina de planejamento de processos formais com a flexibilidade das metodologias ágeis, adequando-se ao contexto acadêmico da disciplina e ao ritmo de desenvolvimento iterativo necessário para validar continuamente a solução com o cliente.
 
-### 3.2 Quadro Comparativo
+### Quadro Comparativo
 
 | Critério | Scrum (Ágil) | DAD + Kanban (Híbrido) |
 |----------|:---:|:---:|
@@ -24,11 +24,11 @@ A abordagem híbrida foi escolhida por combinar a disciplina de planejamento de 
 | **Adaptação ao contexto acadêmico** | Moderada | Alta |
 | **Adequação a equipes pequenas** | Moderada | Alta |
 
-### 3.3 Justificativa
+### Justificativa
 
 A escolha pelo **DAD baseado em Kanban** fundamenta-se em três argumentos principais: o tamanho e perfil da equipe (menor sobrecarga de cerimônias), a natureza do problema (ciclos curtos de feedback para validar gamificação) e a compatibilidade com o DAD (framework escalável e adaptável que mantém disciplina de processo sem abrir mão da agilidade).
 
-### 3.4 Quadro Kanban
+### Quadro Kanban
 
 Abaixo se apresenta o template de Kanban que está sendo utilizado pela equipe como definido no processo de software.
 
@@ -36,9 +36,9 @@ Abaixo se apresenta o template de Kanban que está sendo utilizado pela equipe c
 
 ---
 
-## 4. Engenharia de Requisitos
+##  Engenharia de Requisitos
 
-### 4.1 Atividades e Técnicas de ER
+### Atividades e Técnicas de ER
 
 === "Elicitação e Descoberta"
 
@@ -74,7 +74,7 @@ Abaixo se apresenta o template de Kanban que está sendo utilizado pela equipe c
 
     **Backlog de Produto no GitHub Projects:** Centralização e rastreabilidade de todos os requisitos em um quadro Kanban, permitindo visibilidade do status de cada item.
 
-### 4.2 Mapeamento ER × Processo
+### Mapeamento ER × Processo
 
 | Fase do Processo | Atividade ER | Técnica | Resultado Esperado |
 |---|---|---|---|

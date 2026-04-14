@@ -1,6 +1,6 @@
 # Visão do Projeto
 
-## 5. Cronograma e Entregas
+## Cronograma e Entregas
 
 ### Visão Geral por Unidade
 
@@ -21,9 +21,9 @@
 
 ---
 
-## 6. Interação entre Equipe e Cliente
+## Interação entre Equipe e Cliente
 
-### 6.1 Composição da Equipe
+### Composição da Equipe
 
 Abaixo se encontra a divisão inicial de funções principais associadas aos membros da equipe, sendo que as mesmas podem eventualmente ser alteradas devido à dificuldades ou consenso da equipe conforme o trabalho for executado. Todos os membros poderão auxiliar em partes fora de suas responsabilidades principais considerando o desejo de entregar um produto ao nível esperado e mediante as necessidades do cronograma.
 
@@ -36,7 +36,7 @@ Abaixo se encontra a divisão inicial de funções principais associadas aos mem
 | Pedro Ramos Sousa Reis | Desenvolvedor Front-End | Responsável principal pelo desenvolvimento da parte Front-End do projeto |
 | Ana Luiza Borba de Abrantes, Isaac Lucas Souza Bezerra, Júlia Oliveira Patrício, Lucas Oliveira Meireles, Pedro Ramos Sousa Reis | Analista de Requisitos | Responsáveis por lider com os processos de Engenharia de Requisitos |
 
-### 6.2 Comunicação
+### Comunicação
 
 **Com o cliente:**
 
@@ -54,7 +54,7 @@ Abaixo se encontra a divisão inicial de funções principais associadas aos mem
 | **Quadro Kanban (GitHub Projects)** | Contínua | Visibilidade do fluxo de trabalho |
 | **Canal de mensagem instantânea** | Diária | Comunicação rápida entre membros |
 
-### 6.3 Processo de Validação
+### Processo de Validação
 
 **Validação incremental (a cada iteração):** Ao final de cada iteração, a equipe apresentará ao cliente os artefatos produzidos para coleta de feedback. O cliente confirmará se os entregáveis atendem às expectativas ou indicará ajustes necessários.
 
