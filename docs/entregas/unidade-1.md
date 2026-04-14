@@ -1,6 +1,6 @@
 # Entrega — Unidade 1
 
-**Data prevista:** Semana 8 da Unidade 1
+**Data prevista:** 13/04, Unidade 1
 
 **Status:** Em elaboração
 
