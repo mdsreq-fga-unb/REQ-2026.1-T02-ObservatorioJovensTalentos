@@ -3,7 +3,7 @@ site_description: Visão do Produto e Projeto — Equipe Erro 404 | Requisitos d
 site_author: Equipe Erro 404
 site_url: https://mdsreq-fga-unb.github.io/REQ-2026.1-T02-ObservatorioJovensTalentos/
 
-repo_url: https://mdsreq-fga-unb.github.io/REQ-2026.1-T02-ObservatorioJovensTalentos/
+repo_url: https://github.com/mdsreq-fga-unb/REQ-2026.1-T02-ObservatorioJovensTalentos
 repo_name: mdsreq-fga-unb/REQ-2026.1-T02-ObservatorioJovensTalentos
 edit_uri: edit/main/docs/
 
@@ -94,9 +94,9 @@ nav:
     #- DoR e DoD: backlog-produto/dor-dod.md
     #- Priorização: backlog-produto/priorizacao.md
 
-  - Iterações:
-    - Iteração 1: iteracoes/iteracao-1.md
-    - Iteração 2: iteracoes/iteracao-2.md
+  #- Iterações:
+    #- Iteração 1: iteracoes/iteracao-1.md
+    #- Iteração 2: iteracoes/iteracao-2.md
 
   - Entregas:
     - Unidade 1: entregas/unidade-1.md
