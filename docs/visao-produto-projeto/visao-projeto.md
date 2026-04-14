@@ -6,18 +6,18 @@
 
 | Unidade | Período (previsto) | Foco Principal | Entregável |
 |---------|-------------------|----------------|-----------|
-| **Unidade 1** | Mar–Abr 2026 | Visão do Produto e Projeto | Documento de Visão (seções 1–6, 10, 11) |
-| **Unidade 2** | Abr–Mai 2026 | Requisitos e Backlog, Início de desenvolvimento MVP | Seções 7, 8 e 9 do documento de Visão |
-| **Unidade 3** | Mai–Jun 2026 | Desenvolvimento do MVP | MVP funcional com C1, C3 e C5 |
-| **Unidade 4** | Jun–Jul 2026 | Validação e Entrega Final | MVP validado com representante |
+| **Unidade 1** | 17/03 – 13/04 | Visão do Produto e Projeto | Documento de Visão (seções 1–6, 10, 11) |
+| **Unidade 2** | 15/04 – 18/05 | Requisitos e Backlog, Início de desenvolvimento MVP | Seções 7, 8 e 9 do documento de Visão |
+| **Unidade 3** | 20/05 – 15/06 | Desenvolvimento do MVP | MVP funcional com C1, C3 e C5 |
+| **Unidade 4** | 19/06 – 06/07 | Validação e Entrega Final | MVP validado com representante |
 
 ### Detalhamento — Unidade 1 (Fase de Inception)
 
 | Iteração | Período | Atividades | Resultado Esperado |
 |----------|---------|-----------|-------------------|
-| **Iteração 1** | Semana 1–2 | Ambientalização da equipe, levantamento de horários e conhecimentos | Identificação de forças e desafios, possibilidades de clientes |
-| **Iteração 2** | Semana 2–4 | Elaboração do documento de visão da Unidade 1 | Artefatos visuais do cenário atual |
-| **Entrega U1** | Semana 4 | Revisão final e publicação no GitPages | Documento de Visão v1.0 publicado |
+| **Iteração 1** | 26/03 - 04/04 | Ambientalização da equipe, levantamento de horários e conhecimentos | Identificação de forças e desafios, possibilidades de clientes |
+| **Iteração 2** | 05/04 - 13/04 | Elaboração do documento de visão da Unidade 1 | Artefatos visuais do cenário atual |
+| **Entrega U1** | 13/04 | Revisão final e publicação no GitPages | Documento de Visão v1.0 publicado |
 
 ---
 
@@ -34,6 +34,7 @@ Abaixo se encontra a divisão inicial de funções principais associadas aos mem
 | Isaac Lucas Souza Bezerra | Desenvolvedor Back-end | Responsável principal pelo desenvolvimento da parte Front-End do projeto |
 | Júlia Oliveira Patrício | Apoio à manutenção e workflow | Responsável por auxiliar e manter sempre atualizado o quadro Kanban e o backlog do produto, de acordo com as atualizações advindas do cliente ou novas descobertas. |
 | Pedro Ramos Sousa Reis | Desenvolvedor Front-End | Responsável principal pelo desenvolvimento da parte Front-End do projeto |
+| Ana Luiza Borba de Abrantes, Isaac Lucas Souza Bezerra, Júlia Oliveira Patrício, Lucas Oliveira Meireles, Pedro Ramos Sousa Reis | Analista de Requisitos | Responsáveis por lider com os processos de Engenharia de Requisitos |
 
 ### 6.2 Comunicação
 
