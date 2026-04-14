@@ -46,10 +46,12 @@ A necessidade de mitigar a alta evasão de jovens aprendizes no setor de transpo
 
 | Desafio | Impacto Atual |
 |---------|--------------|
-| **Baixa retenção dos jovens** | Taxa de evasão de ~25% nas primeiras semanas |
-| **Processos manuais** | ~5h/mês em chamadas manuais por instrutor |
-| **Baixo engajamento** | Sensação de invisibilidade e ausência de canal de suporte |
-| **Falta de dados rastreáveis** | 0% de dados sobre efetivação pós-curso |
+| **Prazo de Desenvolvimento do MVP:** | Estruturar e programar uma aplicação web funcional (contemplando a interface gamificada e o painel de gestão) utilizando React, Python e MySQL dentro do prazo de aproximadamente três meses considerando também níveis de conhecimentos distintos entre a equipe.
+ |
+| **Calibragem da Gamificação** | Criar regras de pontuação e recompensas que sejam justas, psicologicamente atraentes e equilibradas, preferencialmente com referenciais acadêmicos, garantindo que o sistema engaje os jovens sem gerar frustração ou permitir que as métricas sejam burladas. |
+| **Adesão e Engajamento dos Gestores** | O sucesso do sistema depende da alimentação constante de dados por parte dos instrutores e do RH. Um grande desafio é criar uma experiência de usuário (UX) tão intuitiva que vença a resistência desses profissionais em adotar uma nova ferramenta em sua rotina. |
+| **Integração de Múltiplos Atores** | Mapear e adequar as funcionalidades para que o sistema consiga atender, no mesmo ambiente, as necessidades pedagógicas da instituição de ensino e os indicadores de desempenho exigidos pela empresa contratante. |
+| **Viabilidade de Infraestrutura** | Garantir a estabilidade, segurança e hospedagem da aplicação em nuvem, otimizando os recursos técnicos para manter o projeto viável dentro de um cenário onde o orçamento para a fase de implementação ainda é incerto ou nulo |
 
 ### Mapa de Stakeholders
 

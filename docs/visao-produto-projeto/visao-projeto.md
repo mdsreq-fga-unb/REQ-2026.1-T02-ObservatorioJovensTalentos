@@ -31,8 +31,8 @@ Abaixo se encontra a divisão inicial de funções principais associadas aos mem
 |--------|-----------------|------------------------------|
 | Lucas Oliveira Meireles | Líder da Equipe | Responsável por facilitar os processos da equipe, remover impedimentos, gerenciar o quadro Kanban, garantir o cumprimento do cronograma. |
 | Ana Luiza Borba de Abrantes | Analista de Qualidade | Responsável por revisar e garantir que as entregas estão dentro dos padrões esperados |
-| Isaac Lucas Souza Bezerra | Desenvolvedor Back-end | Responsável principal pelo desenvolvimento da parte Front-End do projeto |
-| Júlia Oliveira Patrício | Apoio à manutenção e workflow | Responsável por auxiliar e manter sempre atualizado o quadro Kanban e o backlog do produto, de acordo com as atualizações advindas do cliente ou novas descobertas. |
+| Isaac Lucas Souza Bezerra | Desenvolvedor Back-end | Responsável principal pelo desenvolvimento da parte Back-End do projeto |
+| Júlia Oliveira Patrício | Apoio Full-Stack | Integrante responsável por apoiar a equipe de desenvolvimento na área que estiver necessitando. |
 | Pedro Ramos Sousa Reis | Desenvolvedor Front-End | Responsável principal pelo desenvolvimento da parte Front-End do projeto |
 | Ana Luiza Borba de Abrantes, Isaac Lucas Souza Bezerra, Júlia Oliveira Patrício, Lucas Oliveira Meireles, Pedro Ramos Sousa Reis | Analista de Requisitos | Responsáveis por lider com os processos de Engenharia de Requisitos |
 

@@ -2,7 +2,7 @@
 
 **Data prevista:** 13/04, Unidade 1
 
-**Status:** Em elaboração
+**Status:** Concluída
 
 ## Escopo da Entrega
 
@@ -18,7 +18,13 @@ A entrega da Unidade 1 contempla o **Documento de Visão do Produto e Projeto** 
 | 6 | Interação entre Equipe e Cliente | Concluída |
 | 10 | Lições Aprendidas (U1) | Concluída |
 | 11 | Referências Bibliográficas | Concluída |
-| 12 | Gravação da entrega da Unidade 1 | A ser realizada |
+| 12 | Gravação da entrega da Unidade 1 | Concluída |
+
+## Gravação da entrega da Unidade 1
+
+O vídeo de apresentação da equipe está disponível em: <https://youtu.be/knU_9ZQWgGY>
+
+<iframe width="1863" height="787" src="https://www.youtube.com/embed/knU_9ZQWgGY" title="Unidade 1 - Requisitos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Histórico de versões
 
