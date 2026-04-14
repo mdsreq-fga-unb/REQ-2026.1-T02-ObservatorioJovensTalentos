@@ -84,7 +84,7 @@ A necessidade de mitigar a alta evasão de jovens aprendizes no setor de transpo
 
 ### Objetivo Geral do Produto
 
-O produto proposto tem como objetivo geral **mitigar as causas da evasão de jovens aprendizes** no setor de transporte, aumentando a retenção e o engajamento por meio de um sistema de pontuação e reconhecimento.
+O produto proposto tem como objetivo geral **mitigar as causas da evasão de jovens aprendizes** no que rege à instituições que trabalham com Jovens Aprendizes, aumentando a retenção e o engajamento por meio de um sistema de pontuação e reconhecimento.
 
 ### Objetivos Específicos
 
