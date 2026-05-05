@@ -2,22 +2,26 @@
 
 ## Cronograma e Entregas
 
-### Visão Geral por Unidade
-
-| Unidade | Período (previsto) | Foco Principal | Entregável |
-|---------|-------------------|----------------|-----------|
-| **Unidade 1** | 17/03 – 13/04 | Visão do Produto e Projeto | Documento de Visão (seções 1–6, 10, 11) |
-| **Unidade 2** | 15/04 – 18/05 | Requisitos e Backlog, Início de desenvolvimento MVP | Seções 7, 8 e 9 do documento de Visão |
-| **Unidade 3** | 20/05 – 15/06 | Desenvolvimento do MVP | MVP funcional com C1, C3 e C5 |
-| **Unidade 4** | 19/06 – 06/07 | Validação e Entrega Final | MVP validado com representante |
-
-### Detalhamento — Unidade 1 (Fase de Inception)
-
-| Iteração | Período | Atividades | Resultado Esperado |
-|----------|----------------|-----------|-------------------|
-| **Iteração 1** | 26/03 - 04/04 | Ambientalização da equipe, levantamento de horários e conhecimentos | Identificação de forças e desafios, possibilidades de clientes |
-| **Iteração 2** | 05/04 - 13/04 | Elaboração do documento de visão da Unidade 1 | Artefatos visuais do cenário atual |
-| **Entrega U1** | 13/04 | Revisão final e publicação no GitPages | Documento de Visão v1.0 publicado |
+| Período | Atividade | Resultado Esperado | Executado | 
+|---------|------------------|------------------|-----|
+| 26/03 - 04/04 | Ambientalização da equipe, levantamento de horários e conhecimentos | Identificação de forças e desafios, possibilidades de clientes | Sim |
+| 05/04 - 13/04 | Elaboração do documento de visão da Unidade 1 | Artefatos visuais do cenário atual | Sim |
+| 13/04 | Revisão final e publicação no GitPages | Documento de Visão v1.0 publicado | Sim |
+| 15/04 - 24/04 | Correções a partir de Feedback do Documento 1.0 | Verão atualizada da documentação da equipe | Não |
+| 25/04 - 12/05 | Atividades de ER ligadas aos Requisitos Funcionais e Não Funcionais | Declaração dos requisitos do produto, critérios de aceitação, testes previstos | Não |
+| 25/04 - 14/05 | Elaboração de DoR e DoD | Declaração do DoR e DoD para o projeto, além de ajustes em requisitos para garantir que estão atendendo os critérios | Não |
+| 25/04 - 14/05 | Elaboração do Protótipo de Alta Fidelidade | Protótipo de Alta Fidelidade aprovado pelo Cliente | Não |
+| 25/04 - 16/05 | Backlog completo e priorizado | MVP definido e aceito pelo cliente, assim como ordem de priorização de desenvolvimento | Não |
+| 16/05 - 18/05 | Revisão Final e Publicação de Entrega no GitPages | Seções para RFs, RNFs, DoR, DoD, Protótipo e Backlog priorizado | Não |
+| 22/05 - 29/05 | Correções a partir de Feedback | Verão atualizada da documentação da equipe | Não |
+| 30/05 - 05/06 | Desenvolvimento e Testes da Característica de maior valor | Funcionalidade testada e em conformidade com protótipo | Não |
+| 06/06 - 12/06 | Desenvolvimento e Testes da segunda Característica de maior valor | Funcionalidade testada e em conformidade com protótipo | Não |
+| 13/06 - 15/06 | Revisão final e publicação no GitPages | Mapemento de Desenvolvimento, telas reais, rastreabilidade da documentação | Não |
+| 19/06 - 26/06 | Correções a partir de Feedback | Verão atualizada da documentação da equipe | Não |
+| 22/06 - 01/07 | Desenvolvimento Final de MVP | Funcionalidades e Testes do MVP completas | Não |
+| 03/07 | Entrega do MVP ao Cliente | Feedback de Aceite | Não |
+| 04/07 - 05/07 | Ajustes finais do produto para cliente | Aceite completo | Não |
+| 05/07 - 06/07 | Revisão Final da Documentação do Projeto | Formato final da documentação da equipe | Não | 
 
 ---
 
@@ -80,3 +84,4 @@ Abaixo se encontra a divisão inicial de funções principais associadas aos mem
 | Versão | Data | Descrição | 
 |:--------:|:-------:|:-------------------:|
 | 1.0 | 13/04 | Versão inicial do documento|
+| 1.1 | 05/05 | Ajustes de Cronograma |
