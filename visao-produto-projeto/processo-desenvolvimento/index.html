@@ -604,17 +604,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#quadro-kanban" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Quadro Kanban
-      
-    </span>
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -933,17 +922,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#quadro-kanban" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Quadro Kanban
-      
-    </span>
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -1032,153 +1010,241 @@
 <tbody>
 <tr>
 <td><strong>Abordagem</strong></td>
-<td>Híbrida</td>
+<td>Dirigida por Plano</td>
 </tr>
 <tr>
 <td><strong>Ciclo de Vida</strong></td>
-<td>Iterativo e Incremental</td>
+<td>Sequencial</td>
 </tr>
 <tr>
 <td><strong>Processo</strong></td>
-<td>DAD (Disciplined Agile Delivery) baseado em Kanban</td>
+<td>Modelo V com Prototipagem</td>
 </tr>
 </tbody>
 </table>
-<p>A abordagem híbrida foi escolhida por combinar a disciplina de planejamento de processos formais com a flexibilidade das metodologias ágeis, adequando-se ao contexto acadêmico da disciplina e ao ritmo de desenvolvimento iterativo necessário para validar continuamente a solução com o cliente.</p>
+<p>A abordagem dirigida por plano foi escolhida por enfatizar a previsibilidade, a estrutura e a documentação detalhada em todas as fases do desenvolvimento de software. O Ciclo de Vida sequencial será de alta importância por facilitar o desenvolvimento assíncrono da solução após a fase inicial de Requisitos e Prototipação, que serão feitas juntamente ao representante do cliente. A inclusão de uma fase de prototipagem de alta fidelidade como marco de validação complementa a abordagem, garantindo que a interface, usabilidade e fluxo das funcionalidades estejam alinhados com as expectativas dos stakeholders. O desenvolvimento do código-fonte será acompanhado por testes, estabelecendo uma rastreabilidade clara entre requisitos, protótipo e implementação, evitando retrabalho custoso e garantindo qualidade interna além da validação visual.</p>
 <h3 id="quadro-comparativo">Quadro Comparativo<a class="headerlink" href="#quadro-comparativo" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
 <tr>
 <th>Critério</th>
-<th style="text-align: center;">Scrum (Ágil)</th>
-<th style="text-align: center;">DAD + Kanban (Híbrido)</th>
+<th>Cascata</th>
+<th>Modelo V</th>
+<th>Unified Process (UP)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Estrutura de papéis</strong></td>
-<td style="text-align: center;">Papéis fixos</td>
-<td style="text-align: center;">Papéis flexíveis</td>
+<td><strong>Estrutura de Fases</strong></td>
+<td>Sequencial linear (Req → Design → Impl → Teste → Entrega)</td>
+<td>Sequencial com correspondência teste-desenvolvimento (estrutura em V)</td>
+<td>Iterativo com fases sequenciais (Inception, Elaboration, Construction, Transition)</td>
 </tr>
 <tr>
-<td><strong>Cerimônias obrigatórias</strong></td>
-<td style="text-align: center;">Sprint Planning, Daily, Review, Retro</td>
-<td style="text-align: center;">Reuniões conforme necessidade</td>
+<td><strong>Foco em Testes</strong></td>
+<td>Testes após desenvolvimento completo</td>
+<td>Testes planejados em paralelo com desenvolvimento, correspondência direta requisito-teste</td>
+<td>Testes integrados em cada iteração</td>
 </tr>
 <tr>
-<td><strong>Ciclos de entrega</strong></td>
-<td style="text-align: center;">Sprints fixas (1–4 semanas)</td>
-<td style="text-align: center;">Fluxo contínuo incremental</td>
+<td><strong>Níveis de Teste</strong></td>
+<td>Teste de sistema e aceitação</td>
+<td>Testes em múltiplos níveis (unidade, integração, sistema, aceitação)</td>
+<td>Testes em múltiplos níveis por iteração</td>
 </tr>
 <tr>
-<td><strong>Gestão do trabalho</strong></td>
-<td style="text-align: center;">Backlog + Sprint Backlog</td>
-<td style="text-align: center;">Quadro Kanban com WIP limits</td>
+<td><strong>Rastreabilidade</strong></td>
+<td>Requisitos → Documentação → Código</td>
+<td>Requisitos → Testes (cada nível de requisito tem teste correspondente)</td>
+<td>Requisitos → Artefatos → Código (por iteração)</td>
+</tr>
+<tr>
+<td><strong>Validação com Cliente</strong></td>
+<td>Formal ao final da fase de requisitos</td>
+<td>Formal ao final de requisitos + contínua durante testes</td>
+<td>Contínua em cada iteração</td>
+</tr>
+<tr>
+<td><strong>Gestão de Mudanças</strong></td>
+<td>Rigorosa e formal</td>
+<td>Rigorosa com propagação para planos de teste</td>
+<td>Formal mas adaptável</td>
 </tr>
 <tr>
 <td><strong>Documentação</strong></td>
-<td style="text-align: center;">Mínima</td>
-<td style="text-align: center;">Equilibrada</td>
+<td>Muito abrangente</td>
+<td>Muito abrangente</td>
+<td>Abrangente com foco em essencial</td>
 </tr>
 <tr>
-<td><strong>Adaptação ao contexto acadêmico</strong></td>
-<td style="text-align: center;">Moderada</td>
-<td style="text-align: center;">Alta</td>
+<td><strong>Início da Codificação</strong></td>
+<td>Após aprovação completa de requisitos</td>
+<td>Após aprovação de requisitos e planejamento de testes</td>
+<td>Progressivo, por iteração</td>
 </tr>
 <tr>
-<td><strong>Adequação a equipes pequenas</strong></td>
-<td style="text-align: center;">Moderada</td>
-<td style="text-align: center;">Alta</td>
+<td><strong>Adequação a Requisitos Estáveis</strong></td>
+<td>Alta</td>
+<td>Alta</td>
+<td>Moderada</td>
+</tr>
+<tr>
+<td><strong>Adequação a Requisitos Parcialmente Definidos</strong></td>
+<td>Baixa</td>
+<td>Baixa</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><strong>Detecção Precoce de Problemas</strong></td>
+<td>Moderada (descoberta tardia)</td>
+<td>Alta (testes planejados antecipadamente)</td>
+<td>Alta (feedback contínuo)</td>
+</tr>
+<tr>
+<td><strong>Redução de Retrabalho</strong></td>
+<td>Moderada</td>
+<td>Alta (problemas detectados cedo)</td>
+<td>Alta (iterações curtas)</td>
+</tr>
+<tr>
+<td><strong>Adequação ao Contexto Acadêmico</strong></td>
+<td>Alta</td>
+<td>Alta</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><strong>Adequação a Equipes Pequenas</strong></td>
+<td>Moderada</td>
+<td>Moderada</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><strong>Complexidade do Processo</strong></td>
+<td>Baixa</td>
+<td>Moderada</td>
+<td>Alta</td>
 </tr>
 </tbody>
 </table>
 <h3 id="justificativa">Justificativa<a class="headerlink" href="#justificativa" title="Permanent link">&para;</a></h3>
-<p>A escolha pelo <strong>DAD baseado em Kanban</strong> fundamenta-se em três argumentos principais: o tamanho e perfil da equipe (menor sobrecarga de cerimônias), a natureza do problema (ciclos curtos de feedback para validar gamificação) e a compatibilidade com o DAD (framework escalável e adaptável que mantém disciplina de processo sem abrir mão da agilidade).</p>
-<h3 id="quadro-kanban">Quadro Kanban<a class="headerlink" href="#quadro-kanban" title="Permanent link">&para;</a></h3>
-<p>Abaixo se apresenta o template de Kanban que está sendo utilizado pela equipe como definido no processo de software.</p>
-<p><img alt="Quadro Kanban" src="../../assets/images/Kanban_U1.png" /></p>
+<p>A escolha pelo <strong>Modelo V como Ciclo de Vida</strong> fundamenta-se em três argumentos principais:</p>
+<p><strong>Validação em múltiplos níveis:</strong> O Modelo V estabelece uma correspondência direta entre cada nível de requisito e seu respectivo nível de teste. Esta estrutura garante que a funcionalidade seja validada não apenas do ponto de vista do usuário (através do protótipo), mas também internamente em cada camada da arquitetura, reduzindo significativamente o risco de defeitos não detectados.</p>
+<p><strong>Detecção precoce de problemas através da rastreabilidade:</strong> Ao contrário do Cascata tradicional, onde testes ocorrem apenas após o desenvolvimento completo, o Modelo V planeja os testes em paralelo com o desenvolvimento. Esta abordagem permite que ambiguidades ou inconsistências nos requisitos sejam identificadas cedo, durante a elaboração dos planos de teste, evitando retrabalho custoso nas fases posteriores, o que também gera indicações cedo de problemas referentes à capacidade técnica da equipe ou de algum processo. </p>
+<p><strong>Desenvolvimento Assíncrono:</strong> Com a estratégia definida, a equipe poderá desfrutar de um modelo base (protótipo) para realizar o desenvolvimento sem o envolvimento direto do cliente em diversas instâncias para esclarecimento ou desenvolvimento de requisitos. Quando necessário, o acordo feito pelo aceite do protótipo pode sempre ser revisado com novos requisitos ou desejos, desde que devidamente comunicado e aceito também pela equipe de desenvolvimento.</p>
 <hr />
 <h2 id="engenharia-de-requisitos">Engenharia de Requisitos<a class="headerlink" href="#engenharia-de-requisitos" title="Permanent link">&para;</a></h2>
 <h3 id="atividades-e-tecnicas-de-er">Atividades e Técnicas de ER<a class="headerlink" href="#atividades-e-tecnicas-de-er" title="Permanent link">&para;</a></h3>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:6"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><input id="__tabbed_1_5" name="__tabbed_1" type="radio" /><input id="__tabbed_1_6" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Elicitação e Descoberta</label><label for="__tabbed_1_2">Análise e Consenso</label><label for="__tabbed_1_3">Declaração</label><label for="__tabbed_1_4">Representação</label><label for="__tabbed_1_5">Verificação e Validação</label><label for="__tabbed_1_6">Organização e Atualização</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<p><strong>Entrevistas semiestruturadas com o cliente:</strong> Reuniões periódicas com o cliente e representante para levantar necessidades, expectativas e restrições do negócio de forma aprofundada.</p>
-<p><strong>Questionários com jovens aprendizes:</strong> Formulários aplicados ao público-alvo para compreender suas dores, expectativas em relação à gamificação e barreiras de engajamento.</p>
-</div>
-<div class="tabbed-block">
-<p><strong>Workshops de priorização com o cliente:</strong> Sessões colaborativas para alinhar o escopo do MVP, definindo quais características têm maior impacto sobre o problema de evasão.</p>
-<p><strong>Análise de documentos existentes:</strong> Revisão de registros de frequência, relatórios de evasão e materiais institucionais para embasar os requisitos com dados reais.</p>
-</div>
-<div class="tabbed-block">
-<p><strong>User Stories:</strong> Descrição dos requisitos funcionais no formato "Como [persona], quero [ação], para que [benefício]", priorizadas no backlog conforme o modelo MoSCoW.</p>
-<p><strong>Requisitos Não Funcionais com URPS+:</strong> Classificação e documentação dos requisitos de qualidade do sistema.</p>
-</div>
-<div class="tabbed-block">
-<p><strong>Casos de Uso:</strong> Diagramas e descrições textuais dos principais fluxos de interação entre os atores e o sistema.</p>
-<p><strong>Protótipos de baixa fidelidade:</strong> Wireframes das telas principais para validar a experiência do usuário antes do desenvolvimento.</p>
-</div>
-<div class="tabbed-block">
-<p><strong>Revisão por pares:</strong> Inspeção dos artefatos pelos membros da equipe para identificar inconsistências e lacunas.</p>
-<p><strong>Validação com o cliente:</strong> Apresentação dos artefatos ao cliente para confirmação de que os requisitos refletem corretamente as necessidades do negócio.</p>
-</div>
-<div class="tabbed-block">
-<p><strong>Backlog de Produto no GitHub Projects:</strong> Centralização e rastreabilidade de todos os requisitos em um quadro Kanban, permitindo visibilidade do status de cada item.</p>
-</div>
-</div>
-</div>
+<p>As atividades da Engenharia de Requisitos foram mapeadas para se alinharem à estrutura do Modelo V, garantindo que cada etapa produza os artefatos necessários para a fase subsequente e que testes sejam planejados em paralelo com o desenvolvimento.</p>
+<p><strong>Elicitação e Descoberta</strong></p>
+<p>Entrevistas e Discussões: Reuniões periódicas para levantar necessidades, expectativas e restrições do negócio de forma aprofundada.</p>
+<p>Análise de documentos e tecnologias existentes: Revisão de materiais teóricos e dados sobre a evasão de jovens aprendizes para embasar a solução, assim como tecnologias utilizadas no contexto da solução.</p>
+<p>Brainstorming: A Equipe, junto e separado do cliente, irá gerar ideias e visões gerais para então serem acordadas com o cliente.</p>
+<p><strong>Análise e Consenso</strong></p>
+<p>MoSCoW: Técnica de priorização para definir claramente o escopo do que deve estar presente na versão final.</p>
+<p>Prototipagem: Técnica para representar a compreensão do requisito e moldar conforme feedback dos envolvidos.</p>
+<p>Entrevista: Reuniões com o cliente para discussão dos requisitos e viabilidade dos mesmos.</p>
+<p><strong>Declaração</strong></p>
+<p>Especificação Formal: Documentação detalhada dos requisitos funcionais e não funcionais, servindo como contrato para o desenvolvimento e como base para os planos de teste.</p>
+<p>User Stories: Descrições focadas no valor entregue aos instrutores e orientadores, complementadas por critérios de aceitação testáveis.</p>
+<p><strong>Representação</strong></p>
+<p>Prototipagem: Criação de interfaces interativas e navegáveis que representam fielmente o produto final, servindo como validação dos requisitos de negócio.</p>
+<p>Wireframes: Esboços iniciais para validação rápida de estrutura antes da alta fidelidade.</p>
+<p><strong>Verificação e Validação</strong></p>
+<p>Inspeção Técnica / Revisão: Revisão interna da equipe sobre a documentação gerada, incluindo verificação de completude, consistência e testabilidade dos requisitos.</p>
+<p>Feedback do Protótipo: Sessões com o cliente para aprovação dos requisitos de negócio através do protótipo de alta fidelidade, marco essencial para o avanço do projeto.</p>
+<p>Execução de Testes em Múltiplos Níveis: Durante o desenvolvimento, testes são executados em diversos níveis, estabelecendo correspondência direta com os requisitos.</p>
+<p>Rastreamento de Defeitos: Mapeamento de defeitos encontrados durante testes de volta aos requisitos que os geraram, facilitando correção e aprendizado.</p>
+<p><strong>Organização e Atualização</strong></p>
+<p>Matriz de Rastreabilidade Completa: Mapeamento entre os requisitos declarados, as telas do protótipo, os módulos de código e os testes correspondentes.</p>
+<p>Controle de Mudanças Formal: Qualquer alteração solicitada após a aprovação do protótipo passará por análise de impacto, considerando não apenas o código, mas também os planos de teste correspondentes, mantendo a integridade da estrutura em V.</p>
 <h3 id="mapeamento-er-processo">Mapeamento ER × Processo<a class="headerlink" href="#mapeamento-er-processo" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
 <tr>
-<th>Fase do Processo</th>
+<th>Fase do Processo (Modelo V)</th>
 <th>Atividade ER</th>
-<th>Técnica</th>
+<th>Técnica Principal</th>
 <th>Resultado Esperado</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Inception</strong></td>
-<td>Elicitação e Descoberta</td>
-<td>Entrevistas semiestruturadas</td>
-<td>Lista inicial de necessidades</td>
+<td><strong>1. Requisitos</strong></td>
+<td>Elicitação e Análise</td>
+<td>Entrevistas e Discussões + Brainstorming</td>
+<td>Lista abrangente de necessidades, desejos e frustrações</td>
 </tr>
 <tr>
-<td><strong>Inception</strong></td>
+<td><strong>1. Requisitos</strong></td>
 <td>Análise e Consenso</td>
-<td>MoSCoW + análise de documentos</td>
-<td>Escopo preliminar do MVP</td>
+<td>Prototipagem + Entrevista</td>
+<td>Escopo definido, priorizado e estruturado por níveis</td>
 </tr>
 <tr>
-<td><strong>Inception</strong></td>
-<td>Declaração de Requisitos</td>
-<td>User Stories + URPS+</td>
-<td>Backlog inicial</td>
+<td><strong>1. Requisitos</strong></td>
+<td>Declaração</td>
+<td>Especificação Formal + User Stories</td>
+<td>Documento de Requisitos v2.0 com rastreabilidade</td>
 </tr>
 <tr>
-<td><strong>Construction</strong></td>
-<td>Representação</td>
-<td>Wireframes + Casos de Uso</td>
-<td>Protótipos validados</td>
-</tr>
-<tr>
-<td><strong>Construction</strong></td>
-<td>Verificação e Validação</td>
-<td>Inspeção + demo ao cliente</td>
-<td>Requisitos confirmados</td>
-</tr>
-<tr>
-<td><strong>Construction</strong></td>
+<td><strong>1. Requisitos</strong></td>
 <td>Organização e Atualização</td>
-<td>GitHub Projects (Kanban)</td>
-<td>Backlog atualizado</td>
+<td>Matriz de Rastreabilidade</td>
+<td>Mapeamento dos requisitos com objetivos e características</td>
 </tr>
 <tr>
-<td><strong>Transition</strong></td>
+<td><strong>2. Design/Prototipagem</strong></td>
+<td>Representação</td>
+<td>Protótipo de Alta Fidelidade + Wireframes</td>
+<td>Protótipo navegável + Planos de teste em paralelo</td>
+</tr>
+<tr>
+<td><strong>3. Validação</strong></td>
 <td>Verificação e Validação</td>
-<td>Testes com usuários reais</td>
-<td>MVP validado</td>
+<td>Revisão + Feedback</td>
+<td>Protótipo de Alta Fidelidade aprovado para desenvolvimento</td>
+</tr>
+<tr>
+<td><strong>4. Implementação</strong></td>
+<td>Verificação e Validação</td>
+<td>Inspeção Técnica/Revisão + Testes + Rastreamento de Defeitos</td>
+<td>Código com testes de unidade passando</td>
+</tr>
+<tr>
+<td><strong>4. Implementação</strong></td>
+<td>Organização e Atualização</td>
+<td>Matriz de Rastreabilidade</td>
+<td>Rastreamento dos testes e seus resultados</td>
+</tr>
+<tr>
+<td><strong>5. Integração</strong></td>
+<td>Verificação e Validação</td>
+<td>Inspeção Técnica/Revisão + Testes</td>
+<td>Módulos integrados com testes de sistema passando</td>
+</tr>
+<tr>
+<td><strong>5. Integração</strong></td>
+<td>Organização e Atualização</td>
+<td>Matriz de Rastreabilidade</td>
+<td>Rastreamento dos testes e seus resultados</td>
+</tr>
+<tr>
+<td><strong>6. Testes de Aceitação</strong></td>
+<td>Verificação e Validação</td>
+<td>Testes de Aceitação baseados no protótipo</td>
+<td>Software validado contra requisitos e protótipo</td>
+</tr>
+<tr>
+<td><strong>7. Entrega</strong></td>
+<td>Verificação e Validação</td>
+<td>Feedback</td>
+<td>Cliente aprova a entrega completa ou realize o último pedido de ajustes rápidos</td>
+</tr>
+<tr>
+<td><strong>7. Entrega</strong></td>
+<td>Organização e Atualização</td>
+<td>Matriz de Rastreabilidade Completa</td>
+<td>MVP em produção com documentação completa</td>
 </tr>
 </tbody>
 </table>
@@ -1196,6 +1262,11 @@
 <td style="text-align: center;">1.0</td>
 <td style="text-align: center;">13/04</td>
 <td style="text-align: center;">Versão inicial do documento</td>
+</tr>
+<tr>
+<td style="text-align: center;">2.0</td>
+<td style="text-align: center;">05/05</td>
+<td style="text-align: center;">Mudança na Estratégia de Desenvolvimento e ajustes correspondentes</td>
 </tr>
 </tbody>
 </table>
