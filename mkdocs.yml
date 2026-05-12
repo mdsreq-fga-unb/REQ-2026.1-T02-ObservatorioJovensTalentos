@@ -84,8 +84,9 @@ nav:
 
   - Visão Produto e Projeto:
     - Visão do Produto: visao-produto-projeto/visao-produto.md
-    - Visão do Projeto: visao-produto-projeto/visao-projeto.md
     - Processo de Desenvolvimento: visao-produto-projeto/processo-desenvolvimento.md
+    - Visão do Projeto: visao-produto-projeto/visao-projeto.md
+
 
   #- Backlog do Produto:
     #- Requisitos Funcionais: backlog-produto/requisitos-funcionais.md
