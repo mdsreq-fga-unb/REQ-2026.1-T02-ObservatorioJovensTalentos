@@ -86,13 +86,13 @@ A necessidade de mitigar a alta evasão de jovens aprendizes no setor de transpo
 
 ### Objetivo Geral do Produto
 
-O produto proposto tem como objetivo geral **mitigar as causas da evasão de jovens aprendizes** no que rege à instituições que trabalham com Jovens Aprendizes, aumentando a retenção e o engajamento por meio de um sistema de pontuação e reconhecimento.
+O objetivo geral do produto é **reduzir a alta evasão de jovens aprendizes**, utilizando um sistema gamificado de pontuação e reconhecimento para combater a falta de engajamento e aumentar a retenção desses jovens ao longo do programa.
 
 ### Objetivos Específicos
 
 | ID | Objetivo Específico |
 |----|---------------------|
-| **OE1** | Reduzir a evasão por meio de comunicação, acolhimento e suporte contínuo |
+| **OE1** | Reduzir a evasão por meio de comunicação, reconhecimento e acolhimento e suporte contínuo |
 | **OE2** | Demonstrar o valor da retenção para as organizações parceiras por meio de métricas de ROI |
 | **OE3** | Monitorar continuamente o desempenho, a assiduidade e a evolução dos aprendizes |
 | **OE4** | Aumentar o engajamento dos jovens por meio de mecânicas de gamificação |
