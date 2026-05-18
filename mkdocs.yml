@@ -88,9 +88,9 @@ nav:
     - Visão do Projeto: visao-produto-projeto/visao-projeto.md
 
 
-  #- Backlog do Produto:
-    #- Requisitos Funcionais: backlog-produto/requisitos-funcionais.md
-    #- Requisitos Não Funcionais: backlog-produto/requisitos-nao-funcionais.md
+  - Backlog do Produto:
+    - Requisitos Funcionais: backlog-produto/requisitos-funcionais.md
+    - Requisitos Não Funcionais: backlog-produto/requisitos-nao-funcionais.md
     #- Histórias de Usuário: backlog-produto/historias-usuario.md
     #- DoR e DoD: backlog-produto/dor-dod.md
     #- Priorização: backlog-produto/priorizacao.md
