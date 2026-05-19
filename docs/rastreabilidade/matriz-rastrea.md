@@ -1,0 +1,22 @@
+# Matriz de Rastreabilidade
+
+Abaixo se encontra a matriz de rastreablidade para ligação direta entre o [Objetivo Geral do Produto](../visao-produto-projeto/visao-produto.md#objetivo-geral-do-produto), seus [Objetivos Específicos](../visao-produto-projeto/visao-produto.md#objetivos-específicos), as [Características do Produto](../visao-produto-projeto/visao-produto.md#características-do-produto) e os [Requisitos Funcionais](../backlog-produto/requisitos-funcionais.md) e [Não Funcionais](../backlog-produto/requisitos-nao-funcionais.md).
+
+| Objetivo Específico | Característica do Produto | Requisitos Funcionais | Requisitos Não Funcionais |
+| --- | --- | --- | --- |
+| **OE01 — Acompanhar a assiduidade e a permanência dos aprendizes** | **CP01 — Gestão de Frequência** | **RF01** Registrar frequência diária <br> **RF02** Consultar histórico de frequência <br> **RF03** Calcular indicadores de assiduidade. | **RNF01**, **RNF05**, **RNF18**, **RNF20**. |
+| **OE01 — Acompanhar a assiduidade e a permanência dos aprendizes** | **CP02 — Monitoramento de Risco de Evasão e Intervenção Pedagógica** | **RF04** Identificar padrões de risco de evasão <br> **RF05** Registrar ações de intervenção pedagógica. | **RNF09**, **RNF12**, **RNF19**. |
+| **OE02 — Promover o engajamento dos aprendizes por meio de atividades e acompanhamento de progresso** | **CP03 — Gestão de Desafios e Atividades Formativas** | **RF06** Cadastrar desafios e atividades formativas <br> **RF07** Consultar desafios e atividades atribuídas <br> **RF08** Registrar entrega de desafios e atividades <br> **RF09** Avaliar entregas de desafios e atividades. | **RNF02**, **RNF03**, **RNF13**. |
+| **OE02 — Promover o engajamento dos aprendizes por meio de atividades e acompanhamento de progresso** | **CP04 — Reconhecimento, Evolução e Engajamento** | **RF10** Consultar conquistas e evolução <br> **RF11** Gerar indicadores de engajamento. | **RNF02**, **RNF21**, **RNF22**. |
+| **OE03 — Disponibilizar canais seguros de escuta, acolhimento e comunicação** | **CP05 — Canal de Escuta e Relatos** | **RF12** Registrar relatos do aprendiz <br> **RF13** Consultar relatos recebidos <br> **RF14** Categorizar relatos do aprendiz. | **RNF01**, **RNF10**, **RNF11**, **RNF12**. |
+| **OE03 — Disponibilizar canais seguros de escuta, acolhimento e comunicação** | **CP06 — Comunicação Direta e Comunicados** | **RF15** Enviar mensagem instantânea em canal de comunicação direto <br> **RF16** Consultar histórico de mensagens do canal direto <br> **RF17** Publicar comunicados. | **RNF02**, **RNF08**, **RNF09**, **RNF12**. |
+| **OE04 — Apoiar a avaliação formativa dos aprendizes por meio de relatórios e indicadores educacionais** | **CP07 — Avaliação de Desempenho 360 Graus** | **RF18** Registrar avaliação de desempenho 360 graus <br> **RF19** Gerar relatório de avaliação 360 graus. | **RNF09**, **RNF10**, **RNF12**. |
+| **OE04 — Apoiar a avaliação formativa dos aprendizes por meio de relatórios e indicadores educacionais** | **CP08 — Painéis e Relatórios Educacionais** | **RF20** Consultar painel de indicadores educacionais <br> **RF21** Gerar relatórios educacionais <br> **RF22** Exportar relatórios educacionais gerenciais. | **RNF04**, **RNF06**, **RNF07**, **RNF21**. |
+| **OE05 — Organizar a gestão operacional de usuários, turmas e estágios de aprendizagem** | **CP09 — Administração de Usuários, Turmas e Estágios** | **RF23** Cadastrar perfil de usuário <br> **RF24** Gerenciar perfil de usuário <br> **RF25** Autenticar usuário na plataforma <br> **RF26** Cadastrar turmas e estágios de aprendizagem <br> **RF27** Vincular aprendiz a turmas e estágios de aprendizagem <br> **RF28** Consultar seção de dúvidas frequentes e orientações de uso. | **RNF01**, **RNF02**, **RNF08**, **RNF09**, **RNF12**. |
+| **OE06 — Garantir que a plataforma seja segura, acessível, confiável e adequada ao contexto educacional** | **CP10 — Qualidade, Segurança, Privacidade e Sustentação Técnica** | — | **RNF03**, **RNF06**, **RNF07**, **RNF08**, **RNF09**, **RNF10**, **RNF12**, **RNF13**, **RNF14**, **RNF15**, **RNF16**, **RNF17**. |
+
+## Histórico de versões
+
+| Versão | Data | Descrição | 
+|:--------:|:-------:|:-------------------:|
+| 1.0 | 18/05 | Versão inicial do documento|
