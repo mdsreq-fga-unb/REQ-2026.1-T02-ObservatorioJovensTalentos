@@ -91,6 +91,7 @@ nav:
   - Backlog do Produto:
     - Requisitos Funcionais: backlog-produto/requisitos-funcionais.md
     - Requisitos Não Funcionais: backlog-produto/requisitos-nao-funcionais.md
+    - Protótipo: backlog-produto/prototipo.md
     - DoR e DoD: backlog-produto/dor-dod.md
     - Priorização: backlog-produto/priorizacao.md
 
@@ -99,7 +100,7 @@ nav:
 
   - Entregas:
     - Unidade 1: entregas/unidade-1.md
-    #- Unidade 2: entregas/unidade-2.md
+    - Unidade 2: entregas/unidade-2.md
 
   - Lições Aprendidas:
     - Unidade 1: licoes-aprendidas/unidade-1.md
