@@ -10,7 +10,7 @@ O valor de negócio foi atribuído às características do produto em escala de 
 
 | Critério | Peso | Interpretação |
 |---|:---:|---|
-| **Dor central atendida** | 35% | Mede o quanto a característica atua sobre dores centrais do produto, como evasão, assiduidade, acolhimento, engajamento ou decisão pedagógica. |
+| **Impacto no Problema** | 35% | Mede o quanto a característica atua sobre o problema central do produto, como evasão, assiduidade, acolhimento, engajamento ou decisão pedagógica. |
 | **Impacto em stakeholders** | 25% | Mede se a característica gera valor para múltiplos atores, como aprendizes, instrutores, orientadores e coordenação. |
 | **Frequência de uso** | 20% | Mede se a característica tende a ser usada de forma recorrente na rotina do produto. |
 | **Diferencial/MVP** | 20% | Mede se a característica é estratégica para o MVP ou para demonstrar o diferencial do produto. |
@@ -111,5 +111,3 @@ O gráfico posiciona cada requisito funcional conforme seu **valor de negócio**
 | Versão | Data | Descrição |
 |:---:|:---:|---|
 | 1.0 | 18/05 | Versão inicial do documento |
-
-
