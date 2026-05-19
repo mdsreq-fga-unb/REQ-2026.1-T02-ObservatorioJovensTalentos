@@ -92,8 +92,8 @@ nav:
     - Requisitos Funcionais: backlog-produto/requisitos-funcionais.md
     - Requisitos Não Funcionais: backlog-produto/requisitos-nao-funcionais.md
     - Protótipo: backlog-produto/prototipo.md
-    - DoR e DoD: backlog-produto/dor-dod.md
     - Priorização: backlog-produto/priorizacao.md
+    - DoR e DoD: backlog-produto/dor-dod.md
 
   - Rastreabilidade:
     - Matriz de Rastreabilidade: rastreabilidade/matriz-rastrea.md 
