@@ -36,9 +36,13 @@ Ao pressionar uma missão, uma descrição aparece abaixo dela explicando o que 
 
 ![Missão](../assets/images/Missao.png)
 
+## Aba Evolução
+
 Está é a aba de evolução, ela existe para cumprir os requisitos RF10 (Consultar conquistas e evolução) e RF20 (Consultar painel de indicadores educacionais). Indo mais a fundo também encontramos os requisitos RF03 (Calcular indicadores de assiduidade) e RF11 (Gerar indicadores de engajamento).
 
 ![Aba Evolução](../assets/images/Evolucao.png)
+
+## Aba Suporte
 
 Por fim, temos a aba de suporte, que é onde tem as dúvidas mais frequentes sobre a plataforma (RF28), um botão para que o aprendiz relate problemas aos superiores (RF12) e um botão para dar feedback sobre a plataforma.
 
@@ -54,13 +58,19 @@ Ao apertar o botão de relatar um problema, o usuário é redirecionado para out
 
 ## Área do Instrutor/Coordenador
 
+## Aba Visão Geral (Dashboard)
+
 Após o coordenador acessar sua conta e ser autenticado na plataforma (RF25), ele será levado para a tela Visão Geral (Dashboard), que atuará como seu painel principal para consultar indicadores educacionais (RF20). Nela, ele tem acesso a informações consolidadas pelo sistema em tempo real, como os indicadores de assiduidade (RF03) representados no gráfico de evolução coletiva, e os indicadores de engajamento baseados no total de aprendizes ativos (RF11). A tela também possui um alerta visual destacando alunos em que o sistema conseguiu identificar padrões de risco de evasão (RF04), além de um resumo consultivo rápido das atividades atribuídas que aguardam correção (RF07).
 
 ![Visão Geral](../assets/images/Inicio_Instrut.png)
 
+## Aba Aprendizes
+
 Passando para a aba Aprendizes, podemos ver a listagem de todos os jovens vinculados a turmas e estágios de aprendizagem (RF27). A tabela apresenta dados como o último check-in e a porcentagem de presença, permitindo consultar o histórico de frequência (RF02), além do XP acumulado para consultar as conquistas e evolução de cada aluno (RF10). Na coluna de status, a interface volta a identificar os padrões de risco de evasão de forma individual (RF04). Através dos botões de ação na lateral da tabela, o coordenador pode gerenciar o perfil do usuário (RF24), registrar ações de intervenção pedagógica (RF05) ao analisar um aluno em risco, ou acessar o perfil para registrar a avaliação de desempenho 360 graus (RF18). 
 
 ![Aba Aprendizes](../assets/images/Aprendizes_Instrut.png)
+
+## Aba Atividades
 
 Ao acessar a aba de Atividades, visualizamos um quadro Kanban focado em consultar os desafios e atividades atribuídas (RF07). Os cards mostram informações vitais, como a dificuldade e o XP para a evolução do aprendiz (RF10). Quando o aluno registra a entrega da atividade em sua ponta (RF08), o card é movido para a coluna "Enviadas", permitindo que o coordenador possa avaliar as entregas de desafios e atividades (RF09). No canto superior, existe o botão para iniciar a inclusão de uma nova demanda. 
 
@@ -70,11 +80,17 @@ Ao pressionar o botão verde na tela de atividades, surge a interface Criar Ativ
 
 ![Criar Atividade](../assets/images/CriaAtv_Instrut.png)
 
+## Aba Relatórios
+
 Passando para a aba de Relatórios, o coordenador tem à disposição uma interface com campos de busca específicos (Período, Turma, Aprendiz) projetada para gerar os relatórios educacionais (RF21). Ajustando os filtros, ele também consegue gerar o relatório de avaliação 360 graus (RF19) ou consolidar dados para consultar o histórico de frequência em um intervalo de tempo exato (RF02). Uma vez que o documento é gerado em tela, o sistema fornece opções para exportar os relatórios educacionais gerenciais em formatos externos (RF22). 
 
-![Aba Suporte/Acolhimento](../assets/images/Suporte_Instrut.png)
+![Aba Relatórios](../assets/images/Relatorio_Instrut.png)
+
+## Aba Suporte/Acolhimento
 
 Está é a aba de Suporte e Acolhimento, e ela existe principalmente para cumprir o requisito de consultar relatos recebidos (RF13), exibindo no quadro as mensagens e os feedbacks de rotina que os jovens registram (RF12). Nessa interface, ao pressionar o botão "Ver Detalhes", o coordenador consegue categorizar os relatos do aprendiz (RF14) e consultar o histórico de mensagens do canal direto (RF16). Ao pressionar o botão "Responder", ele pode enviar uma mensagem instantânea em canal de comunicação direto (RF15). A leitura contínua destes relatos permite identificar padrões de risco de evasão baseados no comportamento (RF04) e é o gatilho principal para registrar ações de intervenção pedagógica (RF05). Além disso, esta tela central atua como o ambiente lógico para publicar comunicados institucionais gerais (RF17). 
+
+![Aba Suporte/Acolhimento](../assets/images/Suporte_Instrut.png)
 
 ## Histórico de versões
 
