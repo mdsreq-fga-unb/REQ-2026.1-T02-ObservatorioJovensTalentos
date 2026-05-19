@@ -91,13 +91,11 @@ nav:
   - Backlog do Produto:
     - Requisitos Funcionais: backlog-produto/requisitos-funcionais.md
     - Requisitos Não Funcionais: backlog-produto/requisitos-nao-funcionais.md
-    #- Histórias de Usuário: backlog-produto/historias-usuario.md
     - DoR e DoD: backlog-produto/dor-dod.md
-    #- Priorização: backlog-produto/priorizacao.md
+    - Priorização: backlog-produto/priorizacao.md
 
-  #- Iterações:
-    #- Iteração 1: iteracoes/iteracao-1.md
-    #- Iteração 2: iteracoes/iteracao-2.md
+  - Rastreabilidade:
+    - Matriz de Rastreabilidade: rastreabilidade/matriz-rastrea.md 
 
   - Entregas:
     - Unidade 1: entregas/unidade-1.md
