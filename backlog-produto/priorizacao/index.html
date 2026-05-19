@@ -25,7 +25,7 @@
     
     
       
-        <title>Priorização do Backlog - Observatório de Talentos</title>
+        <title>Priorização por Valor de Negócio e Complexidade Técnica - Observatório de Talentos</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#priorizacao-do-backlog" class="md-skip">
+        <a href="#priorizacao-por-valor-de-negocio-e-complexidade-tecnica" class="md-skip">
           Pular para conteúdo
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Priorização do Backlog
+              Priorização por Valor de Negócio e Complexidade Técnica
             
           </span>
         </div>
@@ -874,6 +874,91 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Nesta página
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#regra-de-valor-de-negocio-das-caracteristicas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Regra de Valor de Negócio das Características
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#regra-de-complexidade-tecnica-dos-requisitos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Regra de Complexidade Técnica dos Requisitos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#regra-de-priorizacao-derivada-do-grafico" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Regra de Priorização Derivada do Gráfico
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resultado-calculado-por-requisito" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultado Calculado por Requisito
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grafico-de-priorizacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gráfico de Priorização
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sintese-por-quadrante" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Síntese por Quadrante
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Histórico de versões
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -892,39 +977,739 @@
   
 
 
-<h1 id="priorizacao-do-backlog">Priorização do Backlog<a class="headerlink" href="#priorizacao-do-backlog" title="Permanent link">&para;</a></h1>
-<div class="admonition info">
-<p class="admonition-title">Unidade 2</p>
-<p>Esta seção será preenchida na <strong>Unidade 2</strong>.</p>
-</div>
-<p>A priorização do backlog será realizada utilizando o modelo <strong>MoSCoW</strong>, que classifica os requisitos em quatro categorias:</p>
+<h1 id="priorizacao-por-valor-de-negocio-e-complexidade-tecnica">Priorização por Valor de Negócio e Complexidade Técnica<a class="headerlink" href="#priorizacao-por-valor-de-negocio-e-complexidade-tecnica" title="Permanent link">&para;</a></h1>
+<p>Esta página apresenta a priorização do backlog a partir de uma matriz quantitativa de <strong>Valor de Negócio x Complexidade Técnica</strong>. A ordem de prioridade nasce diretamente do posicionamento dos requisitos no gráfico, considerando o quadrante em que cada item aparece e, como critério secundário de desempate, o índice calculado pela própria matriz.</p>
+<p>A abordagem mantém a rastreabilidade com a <a href="../../rastreabilidade/matriz-rastrea/">Matriz de Rastreabilidade</a>, os <a href="../requisitos-funcionais/">Requisitos Funcionais</a>, os <a href="../requisitos-nao-funcionais/">Requisitos Não Funcionais</a> e a <a href="../../visao-produto-projeto/visao-produto/">Visão do Produto</a>. Como cada requisito funcional está ligado a uma característica do produto, o <strong>valor de negócio do requisito</strong> é herdado da sua respectiva <strong>Característica do Produto (CP)</strong>.</p>
+<h2 id="regra-de-valor-de-negocio-das-caracteristicas">Regra de Valor de Negócio das Características<a class="headerlink" href="#regra-de-valor-de-negocio-das-caracteristicas" title="Permanent link">&para;</a></h2>
+<p>O valor de negócio foi atribuído às características do produto em escala de <strong>0 a 10</strong>. A pontuação final resulta de uma <strong>média ponderada</strong> de quatro critérios, sendo que tais critérios foram respondidos por representantes dos stakeholders.</p>
 <table>
 <thead>
 <tr>
-<th>Categoria</th>
+<th>Critério</th>
+<th style="text-align: center;">Peso</th>
+<th>Interpretação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Dor central atendida</strong></td>
+<td style="text-align: center;">35%</td>
+<td>Mede o quanto a característica atua sobre dores centrais do produto, como evasão, assiduidade, acolhimento, engajamento ou decisão pedagógica.</td>
+</tr>
+<tr>
+<td><strong>Impacto em stakeholders</strong></td>
+<td style="text-align: center;">25%</td>
+<td>Mede se a característica gera valor para múltiplos atores, como aprendizes, instrutores, orientadores e coordenação.</td>
+</tr>
+<tr>
+<td><strong>Frequência de uso</strong></td>
+<td style="text-align: center;">20%</td>
+<td>Mede se a característica tende a ser usada de forma recorrente na rotina do produto.</td>
+</tr>
+<tr>
+<td><strong>Diferencial/MVP</strong></td>
+<td style="text-align: center;">20%</td>
+<td>Mede se a característica é estratégica para o MVP ou para demonstrar o diferencial do produto.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Fórmula utilizada:</strong> Valor de Negócio da CP = (Dor Central × 0,35) + (Impacto em Stakeholders × 0,25) + (Frequência de Uso × 0,20) + (Diferencial/MVP × 0,20).</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">CP</th>
+<th style="text-align: left;">Característica do Produto</th>
+<th style="text-align: left;">OE</th>
+<th style="text-align: right;">Dor Central (0-10)</th>
+<th style="text-align: right;">Impacto em Stakeholders (0-10)</th>
+<th style="text-align: right;">Frequência de Uso (0-10)</th>
+<th style="text-align: right;">Diferencial/MVP (0-10)</th>
+<th style="text-align: right;">Valor de Negócio (0-10)</th>
+<th style="text-align: left;">Justificativa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">CP01</td>
+<td style="text-align: left;">Gestão de Frequência</td>
+<td style="text-align: left;">OE01</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">9.6</td>
+<td style="text-align: left;">Frequência é entrada básica para acompanhar assiduidade e permanência dos aprendizes.</td>
+</tr>
+<tr>
+<td style="text-align: left;">CP02</td>
+<td style="text-align: left;">Monitoramento de Risco de Evasão e Intervenção Pedagógica</td>
+<td style="text-align: left;">OE01</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">9.6</td>
+<td style="text-align: left;">Atua diretamente na prevenção de evasão e no registro de intervenções pedagógicas.</td>
+</tr>
+<tr>
+<td style="text-align: left;">CP03</td>
+<td style="text-align: left;">Gestão de Desafios e Atividades Formativas</td>
+<td style="text-align: left;">OE02</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">8.2</td>
+<td style="text-align: left;">Sustenta evidências de aprendizagem, participação e acompanhamento formativo.</td>
+</tr>
+<tr>
+<td style="text-align: left;">CP04</td>
+<td style="text-align: left;">Reconhecimento, Evolução e Engajamento</td>
+<td style="text-align: left;">OE02</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">7.6</td>
+<td style="text-align: left;">Apoia motivação, progresso e percepção de evolução do aprendiz.</td>
+</tr>
+<tr>
+<td style="text-align: left;">CP05</td>
+<td style="text-align: left;">Canal de Escuta e Relatos</td>
+<td style="text-align: left;">OE03</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">9.2</td>
+<td style="text-align: left;">Permite acolhimento e identificação de situações sensíveis que exigem intervenção.</td>
+</tr>
+<tr>
+<td style="text-align: left;">CP06</td>
+<td style="text-align: left;">Comunicação Direta e Comunicados</td>
+<td style="text-align: left;">OE03</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">6.4</td>
+<td style="text-align: left;">Melhora a comunicação institucional, mas é menos diferencial que escuta, permanência e indicadores.</td>
+</tr>
+<tr>
+<td style="text-align: left;">CP07</td>
+<td style="text-align: left;">Avaliação de Desempenho 360 Graus</td>
+<td style="text-align: left;">OE04</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: left;">Gera avaliação formativa ampla, embora com menor frequência de uso cotidiano.</td>
+</tr>
+<tr>
+<td style="text-align: left;">CP08</td>
+<td style="text-align: left;">Painéis e Relatórios Educacionais</td>
+<td style="text-align: left;">OE04</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">8.4</td>
+<td style="text-align: left;">Apoia decisão pedagógica, gestão por indicadores e acompanhamento institucional.</td>
+</tr>
+<tr>
+<td style="text-align: left;">CP09</td>
+<td style="text-align: left;">Administração de Usuários, Turmas e Estágios</td>
+<td style="text-align: left;">OE05</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">6.9</td>
+<td style="text-align: left;">Viabiliza a operação do sistema, mas não representa o principal diferencial pedagógico.</td>
+</tr>
+<tr>
+<td style="text-align: left;">CP10</td>
+<td style="text-align: left;">Qualidade, Segurança, Privacidade e Sustentação Técnica</td>
+<td style="text-align: left;">OE06</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">8.2</td>
+<td style="text-align: left;">Garante confiança, privacidade, segurança e viabilidade operacional da plataforma.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="regra-de-complexidade-tecnica-dos-requisitos">Regra de Complexidade Técnica dos Requisitos<a class="headerlink" href="#regra-de-complexidade-tecnica-dos-requisitos" title="Permanent link">&para;</a></h2>
+<p>A complexidade técnica foi calculada para cada requisito funcional em escala de <strong>0 a 10</strong>. Cada critério também recebe uma nota de <strong>0 a 10</strong>, e a nota final é uma média ponderada. Esse modelo torna a análise mais prática para o grupo, pois cada item pode ser avaliado com uma escala comum e mais familiar.</p>
+<table>
+<thead>
+<tr>
+<th>Critério</th>
+<th style="text-align: center;">Peso</th>
+<th>Interpretação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Interface/CRUD</strong></td>
+<td style="text-align: center;">20%</td>
+<td>Indica necessidade de tela, formulário, cadastro, edição ou ação operacional direta.</td>
+</tr>
+<tr>
+<td><strong>Regra de negócio</strong></td>
+<td style="text-align: center;">25%</td>
+<td>Indica existência de validações, regras pedagógicas, vínculos ou lógica além de uma consulta simples.</td>
+</tr>
+<tr>
+<td><strong>Dados sensíveis/perfis</strong></td>
+<td style="text-align: center;">20%</td>
+<td>Indica tratamento de perfis, permissões, relatos, avaliações ou dados com maior cuidado de privacidade.</td>
+</tr>
+<tr>
+<td><strong>Consulta/processamento/relatório</strong></td>
+<td style="text-align: center;">25%</td>
+<td>Indica necessidade de filtros, agregações, cálculo, histórico, dashboard, relatório ou exportação.</td>
+</tr>
+<tr>
+<td><strong>Tempo real/integração</strong></td>
+<td style="text-align: center;">10%</td>
+<td>Indica necessidade de comunicação instantânea, atualização em tempo real ou integração técnica mais complexa.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Fórmula utilizada:</strong> Complexidade Técnica do Requisito = (Interface/CRUD × 0,20) + (Regra de Negócio × 0,25) + (Dados Sensíveis/Perfis × 0,20) + (Consulta/Processamento/Relatório × 0,25) + (Tempo Real/Integração × 0,10).</p>
+<h2 id="regra-de-priorizacao-derivada-do-grafico">Regra de Priorização Derivada do Gráfico<a class="headerlink" href="#regra-de-priorizacao-derivada-do-grafico" title="Permanent link">&para;</a></h2>
+<p>A priorização é derivada diretamente dos quadrantes do gráfico. O corte adotado considera <strong>valor alto</strong> quando o requisito possui valor de negócio maior ou igual a <strong>7,0</strong>, e <strong>complexidade alta</strong> quando possui complexidade técnica maior ou igual a <strong>6,0</strong>.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Ordem</th>
+<th>Quadrante</th>
+<th>Critério</th>
+<th>Decisão de Priorização</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>1</strong></td>
+<td><strong>Q1 — Prioridade imediata</strong></td>
+<td>Valor ≥ 7,0 e Complexidade &lt; 6,0</td>
+<td>Deve ser priorizado primeiro, pois entrega alto valor com menor esforço relativo.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>2</strong></td>
+<td><strong>Q2 — Prioridade planejada</strong></td>
+<td>Valor ≥ 7,0 e Complexidade ≥ 6,0</td>
+<td>Deve ser planejado em incrementos, pois é estratégico, mas tecnicamente mais difícil.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>3</strong></td>
+<td><strong>Q3 — Prioridade complementar</strong></td>
+<td>Valor &lt; 7,0 e Complexidade &lt; 6,0</td>
+<td>Pode ser implementado como complemento, suporte operacional ou melhoria de experiência.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>4</strong></td>
+<td><strong>Q4 — Baixa prioridade ou reavaliação</strong></td>
+<td>Valor &lt; 7,0 e Complexidade ≥ 6,0</td>
+<td>Deve ser simplificado, adiado ou reavaliado, pois exige esforço alto para o valor atual.</td>
+</tr>
+</tbody>
+</table>
+<p>Quando dois requisitos aparecem no mesmo quadrante, o desempate utiliza o <strong>Índice da Matriz</strong>, calculado pela fórmula <code>Valor de Negócio - (Complexidade Técnica × 0,35)</code>. Esse índice apenas ordena itens dentro do mesmo quadrante; portanto, a priorização continua sendo resultado do próprio gráfico.</p>
+<h2 id="resultado-calculado-por-requisito">Resultado Calculado por Requisito<a class="headerlink" href="#resultado-calculado-por-requisito" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Prioridade</th>
+<th style="text-align: left;">RF</th>
+<th style="text-align: left;">CP</th>
+<th style="text-align: left;">Requisito Funcional</th>
+<th style="text-align: right;">Valor de Negócio (0-10)</th>
+<th style="text-align: right;">Interface/CRUD (0-10)</th>
+<th style="text-align: right;">Regra de Negócio (0-10)</th>
+<th style="text-align: right;">Dados Sensíveis/Perfis (0-10)</th>
+<th style="text-align: right;">Consulta/Processamento/Relatório (0-10)</th>
+<th style="text-align: right;">Tempo Real/Integração (0-10)</th>
+<th style="text-align: right;">Complexidade Técnica (0-10)</th>
+<th style="text-align: right;">Índice da Matriz</th>
+<th style="text-align: left;">Quadrante</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">RF02</td>
+<td style="text-align: left;">CP01</td>
+<td style="text-align: left;">Consultar histórico de frequência</td>
+<td style="text-align: right;">9.6</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">3.8</td>
+<td style="text-align: right;">8.27</td>
+<td style="text-align: left;">Q1 — Prioridade imediata</td>
+</tr>
+<tr>
+<td style="text-align: right;">2</td>
+<td style="text-align: left;">RF01</td>
+<td style="text-align: left;">CP01</td>
+<td style="text-align: left;">Registrar frequência diária</td>
+<td style="text-align: right;">9.6</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">8.2</td>
+<td style="text-align: left;">Q1 — Prioridade imediata</td>
+</tr>
+<tr>
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">RF03</td>
+<td style="text-align: left;">CP01</td>
+<td style="text-align: left;">Calcular indicadores de assiduidade</td>
+<td style="text-align: right;">9.6</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">4.8</td>
+<td style="text-align: right;">7.92</td>
+<td style="text-align: left;">Q1 — Prioridade imediata</td>
+</tr>
+<tr>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">RF05</td>
+<td style="text-align: left;">CP02</td>
+<td style="text-align: left;">Registrar ações de intervenção pedagógica</td>
+<td style="text-align: right;">9.6</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">5.9</td>
+<td style="text-align: right;">7.54</td>
+<td style="text-align: left;">Q1 — Prioridade imediata</td>
+</tr>
+<tr>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">RF07</td>
+<td style="text-align: left;">CP03</td>
+<td style="text-align: left;">Consultar desafios e atividades atribuídas</td>
+<td style="text-align: right;">8.2</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">3.8</td>
+<td style="text-align: right;">6.87</td>
+<td style="text-align: left;">Q1 — Prioridade imediata</td>
+</tr>
+<tr>
+<td style="text-align: right;">6</td>
+<td style="text-align: left;">RF06</td>
+<td style="text-align: left;">CP03</td>
+<td style="text-align: left;">Cadastrar desafios e atividades formativas</td>
+<td style="text-align: right;">8.2</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">6.8</td>
+<td style="text-align: left;">Q1 — Prioridade imediata</td>
+</tr>
+<tr>
+<td style="text-align: right;">7</td>
+<td style="text-align: left;">RF22</td>
+<td style="text-align: left;">CP08</td>
+<td style="text-align: left;">Exportar relatórios educacionais gerenciais</td>
+<td style="text-align: right;">8.4</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">4.8</td>
+<td style="text-align: right;">6.72</td>
+<td style="text-align: left;">Q1 — Prioridade imediata</td>
+</tr>
+<tr>
+<td style="text-align: right;">8</td>
+<td style="text-align: left;">RF08</td>
+<td style="text-align: left;">CP03</td>
+<td style="text-align: left;">Registrar entrega de desafios e atividades</td>
+<td style="text-align: right;">8.2</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">4.4</td>
+<td style="text-align: right;">6.66</td>
+<td style="text-align: left;">Q1 — Prioridade imediata</td>
+</tr>
+<tr>
+<td style="text-align: right;">9</td>
+<td style="text-align: left;">RF20</td>
+<td style="text-align: left;">CP08</td>
+<td style="text-align: left;">Consultar painel de indicadores educacionais</td>
+<td style="text-align: right;">8.4</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">5.4</td>
+<td style="text-align: right;">6.51</td>
+<td style="text-align: left;">Q1 — Prioridade imediata</td>
+</tr>
+<tr>
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">RF21</td>
+<td style="text-align: left;">CP08</td>
+<td style="text-align: left;">Gerar relatórios educacionais</td>
+<td style="text-align: right;">8.4</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">5.4</td>
+<td style="text-align: right;">6.51</td>
+<td style="text-align: left;">Q1 — Prioridade imediata</td>
+</tr>
+<tr>
+<td style="text-align: right;">11</td>
+<td style="text-align: left;">RF09</td>
+<td style="text-align: left;">CP03</td>
+<td style="text-align: left;">Avaliar entregas de desafios e atividades</td>
+<td style="text-align: right;">8.2</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">4.9</td>
+<td style="text-align: right;">6.48</td>
+<td style="text-align: left;">Q1 — Prioridade imediata</td>
+</tr>
+<tr>
+<td style="text-align: right;">12</td>
+<td style="text-align: left;">RF10</td>
+<td style="text-align: left;">CP04</td>
+<td style="text-align: left;">Consultar conquistas e evolução</td>
+<td style="text-align: right;">7.6</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">4.2</td>
+<td style="text-align: right;">6.13</td>
+<td style="text-align: left;">Q1 — Prioridade imediata</td>
+</tr>
+<tr>
+<td style="text-align: right;">13</td>
+<td style="text-align: left;">RF11</td>
+<td style="text-align: left;">CP04</td>
+<td style="text-align: left;">Gerar indicadores de engajamento</td>
+<td style="text-align: right;">7.6</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">5.3</td>
+<td style="text-align: right;">5.74</td>
+<td style="text-align: left;">Q1 — Prioridade imediata</td>
+</tr>
+<tr>
+<td style="text-align: right;">14</td>
+<td style="text-align: left;">RF04</td>
+<td style="text-align: left;">CP02</td>
+<td style="text-align: left;">Identificar padrões de risco de evasão</td>
+<td style="text-align: right;">9.6</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">6.9</td>
+<td style="text-align: right;">7.18</td>
+<td style="text-align: left;">Q2 — Prioridade planejada</td>
+</tr>
+<tr>
+<td style="text-align: right;">15</td>
+<td style="text-align: left;">RF13</td>
+<td style="text-align: left;">CP05</td>
+<td style="text-align: left;">Consultar relatos recebidos</td>
+<td style="text-align: right;">9.2</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">6.1</td>
+<td style="text-align: right;">7.06</td>
+<td style="text-align: left;">Q2 — Prioridade planejada</td>
+</tr>
+<tr>
+<td style="text-align: right;">16</td>
+<td style="text-align: left;">RF12</td>
+<td style="text-align: left;">CP05</td>
+<td style="text-align: left;">Registrar relatos do aprendiz</td>
+<td style="text-align: right;">9.2</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">6.3</td>
+<td style="text-align: right;">6.99</td>
+<td style="text-align: left;">Q2 — Prioridade planejada</td>
+</tr>
+<tr>
+<td style="text-align: right;">17</td>
+<td style="text-align: left;">RF14</td>
+<td style="text-align: left;">CP05</td>
+<td style="text-align: left;">Categorizar relatos do aprendiz</td>
+<td style="text-align: right;">9.2</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">7.3</td>
+<td style="text-align: right;">6.64</td>
+<td style="text-align: left;">Q2 — Prioridade planejada</td>
+</tr>
+<tr>
+<td style="text-align: right;">18</td>
+<td style="text-align: left;">RF18</td>
+<td style="text-align: left;">CP07</td>
+<td style="text-align: left;">Registrar avaliação de desempenho 360 graus</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">6.4</td>
+<td style="text-align: right;">4.76</td>
+<td style="text-align: left;">Q2 — Prioridade planejada</td>
+</tr>
+<tr>
+<td style="text-align: right;">19</td>
+<td style="text-align: left;">RF19</td>
+<td style="text-align: left;">CP07</td>
+<td style="text-align: left;">Gerar relatório de avaliação 360 graus</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">6.5</td>
+<td style="text-align: right;">4.72</td>
+<td style="text-align: left;">Q2 — Prioridade planejada</td>
+</tr>
+<tr>
+<td style="text-align: right;">20</td>
+<td style="text-align: left;">RF28</td>
+<td style="text-align: left;">CP09</td>
+<td style="text-align: left;">Consultar seção de dúvidas frequentes e orientações de uso</td>
+<td style="text-align: right;">6.9</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1.9</td>
+<td style="text-align: right;">6.24</td>
+<td style="text-align: left;">Q3 — Prioridade complementar</td>
+</tr>
+<tr>
+<td style="text-align: right;">21</td>
+<td style="text-align: left;">RF23</td>
+<td style="text-align: left;">CP09</td>
+<td style="text-align: left;">Cadastrar perfil de usuário</td>
+<td style="text-align: right;">6.9</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">4.2</td>
+<td style="text-align: right;">5.43</td>
+<td style="text-align: left;">Q3 — Prioridade complementar</td>
+</tr>
+<tr>
+<td style="text-align: right;">22</td>
+<td style="text-align: left;">RF26</td>
+<td style="text-align: left;">CP09</td>
+<td style="text-align: left;">Cadastrar turmas e estágios de aprendizagem</td>
+<td style="text-align: right;">6.9</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">4.2</td>
+<td style="text-align: right;">5.43</td>
+<td style="text-align: left;">Q3 — Prioridade complementar</td>
+</tr>
+<tr>
+<td style="text-align: right;">23</td>
+<td style="text-align: left;">RF17</td>
+<td style="text-align: left;">CP06</td>
+<td style="text-align: left;">Publicar comunicados</td>
+<td style="text-align: right;">6.4</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2.8</td>
+<td style="text-align: right;">5.42</td>
+<td style="text-align: left;">Q3 — Prioridade complementar</td>
+</tr>
+<tr>
+<td style="text-align: right;">24</td>
+<td style="text-align: left;">RF25</td>
+<td style="text-align: left;">CP09</td>
+<td style="text-align: left;">Autenticar usuário na plataforma</td>
+<td style="text-align: right;">6.9</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">4.6</td>
+<td style="text-align: right;">5.29</td>
+<td style="text-align: left;">Q3 — Prioridade complementar</td>
+</tr>
+<tr>
+<td style="text-align: right;">25</td>
+<td style="text-align: left;">RF27</td>
+<td style="text-align: left;">CP09</td>
+<td style="text-align: left;">Vincular aprendiz a turmas e estágios de aprendizagem</td>
+<td style="text-align: right;">6.9</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">5.4</td>
+<td style="text-align: right;">5.01</td>
+<td style="text-align: left;">Q3 — Prioridade complementar</td>
+</tr>
+<tr>
+<td style="text-align: right;">26</td>
+<td style="text-align: left;">RF24</td>
+<td style="text-align: left;">CP09</td>
+<td style="text-align: left;">Gerenciar perfil de usuário</td>
+<td style="text-align: right;">6.9</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">5.6</td>
+<td style="text-align: right;">4.94</td>
+<td style="text-align: left;">Q3 — Prioridade complementar</td>
+</tr>
+<tr>
+<td style="text-align: right;">27</td>
+<td style="text-align: left;">RF16</td>
+<td style="text-align: left;">CP06</td>
+<td style="text-align: left;">Consultar histórico de mensagens do canal direto</td>
+<td style="text-align: right;">6.4</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">5.4</td>
+<td style="text-align: right;">4.51</td>
+<td style="text-align: left;">Q3 — Prioridade complementar</td>
+</tr>
+<tr>
+<td style="text-align: right;">28</td>
+<td style="text-align: left;">RF15</td>
+<td style="text-align: left;">CP06</td>
+<td style="text-align: left;">Enviar mensagem instantânea em canal de comunicação direto</td>
+<td style="text-align: right;">6.4</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">5.5</td>
+<td style="text-align: right;">4.48</td>
+<td style="text-align: left;">Q3 — Prioridade complementar</td>
+</tr>
+</tbody>
+</table>
+<h2 id="grafico-de-priorizacao">Gráfico de Priorização<a class="headerlink" href="#grafico-de-priorizacao" title="Permanent link">&para;</a></h2>
+<p>O gráfico posiciona cada requisito funcional conforme seu <strong>valor de negócio</strong>, herdado da característica de produto, e sua <strong>complexidade técnica</strong>, calculada pelos critérios objetivos apresentados. A escala final de 0 a 10, com médias ponderadas e uma casa decimal, aumenta a separação visual entre os pontos e reduz a concentração excessiva de requisitos no mesmo lugar.</p>
+<p><img alt="Priorização por valor de negócio e complexidade técnica" src="../../assets/images/valor-negocio-complexidade-requisitos.png" /></p>
+<center> Imagem gerada pela equipe </center>
+
+<h2 id="sintese-por-quadrante">Síntese por Quadrante<a class="headerlink" href="#sintese-por-quadrante" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Quadrante</th>
+<th style="text-align: left;">RF</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Q1 — Prioridade imediata</td>
+<td style="text-align: left;">RF02, RF01, RF03, RF05, RF07, RF06, RF22, RF08, RF20, RF21, RF09, RF10, RF11</td>
+</tr>
+<tr>
+<td style="text-align: left;">Q2 — Prioridade planejada</td>
+<td style="text-align: left;">RF04, RF13, RF12, RF14, RF18, RF19</td>
+</tr>
+<tr>
+<td style="text-align: left;">Q3 — Prioridade complementar</td>
+<td style="text-align: left;">RF28, RF23, RF26, RF17, RF25, RF27, RF24, RF16, RF15</td>
+</tr>
+<tr>
+<td style="text-align: left;">Q4 — Baixa prioridade</td>
+<td style="text-align: left;">---</td>
+</tr>
+</tbody>
+</table>
+<h2 id="historico-de-versoes">Histórico de versões<a class="headerlink" href="#historico-de-versoes" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Versão</th>
+<th style="text-align: center;">Data</th>
 <th>Descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Must Have</strong></td>
-<td>Requisitos essenciais para o MVP — sem eles o produto não funciona</td>
-</tr>
-<tr>
-<td><strong>Should Have</strong></td>
-<td>Requisitos importantes, mas que podem ser adiados sem comprometer o MVP</td>
-</tr>
-<tr>
-<td><strong>Could Have</strong></td>
-<td>Requisitos desejáveis, implementados apenas se houver tempo disponível</td>
-</tr>
-<tr>
-<td><strong>Won't Have</strong></td>
-<td>Requisitos fora do escopo desta versão, mas que podem ser considerados no futuro</td>
+<td style="text-align: center;">1.0</td>
+<td style="text-align: center;">18/05</td>
+<td>Versão inicial do documento</td>
 </tr>
 </tbody>
 </table>
-<p>A priorização será realizada em conjunto com o cliente durante os workshops de priorização previstos na Fase de Inception do processo DAD/Kanban.</p>
 
 
 
