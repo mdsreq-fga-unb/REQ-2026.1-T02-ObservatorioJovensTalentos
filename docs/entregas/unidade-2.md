@@ -5,7 +5,7 @@
 A entrega da Unidade 2 contempla o **Backlog de Produto** completo, com as seguintes seções:
 
 | Item | Título | Status |
-|-------|--------|
+|-------|--------| ------- |
 | 1 | Requisitos de Software (Funcionais e Não Funcionais) | Completo |
 | 2 | DoR e DoD | Completo |
 | 3 | Backlog de Produto e Priorização | Completo |
