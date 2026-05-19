@@ -13,9 +13,9 @@ A entrega da Unidade 2 contempla o **Backlog de Produto** completo, com as segui
 
 ## Gravação da entrega da Unidade 2
 
-O vídeo de apresentação da equipe está disponível em: <link>
+O vídeo de apresentação da equipe está disponível em: <https://youtu.be/CIwuonn9ses>
 
-<!-- <iframe width="800" height="600" src="https://www.youtube.com/embed/knU_9ZQWgGY" title="Unidade 1 - Requisitos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+<iframe width="1863" height="787" src="https://www.youtube.com/embed/CIwuonn9ses" title="Entrega Unidade 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Histórico de versões
 
