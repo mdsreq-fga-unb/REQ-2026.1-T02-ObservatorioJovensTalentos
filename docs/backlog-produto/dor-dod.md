@@ -4,7 +4,7 @@ Esta seção define os critérios de qualidade e de aceite adotados pela equipe 
 
 ---
 
-# Definition of Ready (DoR)
+## Definition of Ready (DoR)
 
 O DoR é o conjunto de critérios que define quando a especificação de um requisito (seja em formato formal ou de História de Usuário) está madura e estável o suficiente para sair da fase de Declaração e entrar na fase de Implementação.
 
@@ -21,7 +21,7 @@ Critérios do DoR:
 
 ---
 
-# Definition of Done (DoD)
+## Definition of Done (DoD)
 
 O Definition of Done (DoD) garante a qualidade e a consistência da entrega técnica, atestando que a implementação cumpriu todas as validações progressivas exigidas pelo Modelo V antes de avançar para a fase de Entrega.
 
