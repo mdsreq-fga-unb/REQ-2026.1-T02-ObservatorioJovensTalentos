@@ -1,6 +1,6 @@
 # Matriz de Rastreabilidade
 
-Abaixo se encontra a matriz de rastreablidade para ligação direta entre o [Objetivo Geral do Produto](../visao-produto-projeto/visao-produto.md#objetivo-geral-do-produto), seus [Objetivos Específicos](../visao-produto-projeto/visao-produto.md#objetivos-específicos), as [Características do Produto](../visao-produto-projeto/visao-produto.md#características-do-produto) e os [Requisitos Funcionais](../backlog-produto/requisitos-funcionais.md) e [Não Funcionais](../backlog-produto/requisitos-nao-funcionais.md).
+Abaixo se encontra a matriz de rastreablidade para ligação direta entre o [Objetivo Geral do Produto](../visao-produto-projeto/visao-produto.md#objetivo-geral-do-produto), seus [Objetivos Específicos](../visao-produto-projeto/visao-produto.md#objetivos-especificos), as [Características do Produto](../visao-produto-projeto/visao-produto.md#caracteristicas-do-produto) e os [Requisitos Funcionais](../backlog-produto/requisitos-funcionais.md) e [Não Funcionais](../backlog-produto/requisitos-nao-funcionais.md).
 
 | Objetivo Específico | Característica do Produto | Requisitos Funcionais | Requisitos Não Funcionais |
 | --- | --- | --- | --- |
