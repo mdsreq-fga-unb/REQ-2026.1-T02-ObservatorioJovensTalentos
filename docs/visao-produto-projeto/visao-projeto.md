@@ -46,7 +46,7 @@ Abaixo se encontra a divisão inicial de funções principais associadas aos mem
 
 | Canal / Ritual | Frequência | Objetivo |
 |----------------|-----------|---------|
-| **Reunião de validação** | Quinzenal | Apresentar artefatos e coletar feedback |
+| **Reunião de validação** | Sob Demanda | Apresentar artefatos e coletar feedback |
 | **Canal de mensagem instantânea** | Sob demanda | Dúvidas rápidas e comunicados urgentes |
 | **GitPages (este site)** | Contínua | Transparência sobre o estado da documentação |
 
@@ -55,12 +55,11 @@ Abaixo se encontra a divisão inicial de funções principais associadas aos mem
 | Canal / Ritual | Frequência | Objetivo |
 |----------------|-----------|---------|
 | **Reunião de alinhamento** | Semanal | Sincronização, impedimentos e planejamento |
-| **Quadro Kanban (GitHub Projects)** | Contínua | Visibilidade do fluxo de trabalho |
 | **Canal de mensagem instantânea** | Diária | Comunicação rápida entre membros |
 
 ### Processo de Validação
 
-**Validação incremental (a cada iteração):** Ao final de cada iteração, a equipe apresentará ao cliente os artefatos produzidos para coleta de feedback. O cliente confirmará se os entregáveis atendem às expectativas ou indicará ajustes necessários.
+**Validação incremental :** Ao final de cada desenvolivmento de Característica de Produto, a equipe apresentará ao cliente os artefatos produzidos para coleta de feedback. O cliente confirmará se os entregáveis atendem às expectativas ou indicará ajustes necessários.
 
 **Validação com usuários finais (Unidade 3–4):** Antes da entrega final do MVP, a equipe conduzirá sessões de teste com jovens aprendizes e instrutores reais para validar a usabilidade e a aderência da solução às necessidades identificadas.
 

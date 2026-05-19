@@ -36,3 +36,9 @@ Critérios de DoD:
 | Matriz de Rastreabilidade Atualizada | A Matriz de Rastreabilidade Completa deve estar atualizada, conectando o requisito aprovado ao seu respectivo módulo de código e ao resultado dos testes de sistema. |
 | Código aprovado por Inspeção Técnica | O código deve passar por uma inspeção técnica (revisão) por outro membro da equipe para rastreamento de defeitos antes da integração. |
 | Documentação Técnica Finalizada | O MVP em produção deve estar acompanhado da documentação completa (APIs, manuais e logs). |
+
+## Histórico de versões
+
+| Versão | Data | Descrição | 
+|:--------:|:-------:|:-------------------:|
+| 1.0 | 18/05 | Versão inicial do documento|

@@ -24,3 +24,9 @@
 | RNF20 | Segurança Operacional | A validação de presença deve seguir regra institucional definida |
 | RNF21 | Usabilidade | O sistema deve ser capaz de filtrar indicadores do dashboard por turma, aprendiz, período e estágio |
 | RNF22 | Implementação | O sistema deve calcular pontuação e progresso do aprendiz |
+
+## Histórico de versões
+
+| Versão | Data | Descrição | 
+|:--------:|:-------:|:-------------------:|
+| 1.0 | 18/05 | Versão inicial do documento|
